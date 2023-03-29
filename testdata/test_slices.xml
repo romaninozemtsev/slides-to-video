@@ -1,0 +1,16 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"> 
+    <voice name="en-US-JennyNeural">
+          These are my notes for this slide
+<break time="3000ms" />
+This is very important presentation
+  <bookmark mark="slide_0"/>
+  I don’t think there are more important presentations
+<break time="2000ms" />
+Another not less important slide
+  <bookmark mark="slide_1"/>
+  Everything here is equally amazing
+<break time="1000ms" />
+Especially here
+  <bookmark mark="slide_2"/>
+    </voice>
+</speak>

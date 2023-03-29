@@ -31,7 +31,8 @@ def run_full_program(ppt_location: str, img_location: str, voice: str):
     print("constructed config", images_config)
     video_with_slides = pics_to_video_from_config(images_config)
     print("got video with slides", video_with_slides)
-    final_video_path = combine_with_mp3(video_with_slides, mp3_location)
+    final_video_path = 'out/full_video_with_audio.mp4'
+    combine_with_mp3(video_with_slides, mp3_location, final_video_path)
     print("got video with slides", final_video_path)
 
 

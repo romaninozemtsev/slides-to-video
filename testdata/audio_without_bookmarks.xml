@@ -1,0 +1,21 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"> 
+    <voice name="en-US-JennyNeural">
+          These are my notes for this slide
+
+
+  
+This is very important presentation
+
+
+I don’t think there are more important presentations
+
+  Another not less important slide
+
+
+Everything here is equally amazing
+
+
+Especially here
+
+    </voice>
+</speak>

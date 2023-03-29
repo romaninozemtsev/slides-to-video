@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# this code is copy pasted from Microsoft Azure examples for text to speech.
+# so keeping this copyright just in case.
 # Copyright (c) Microsoft. All rights reserved.
 # Licensed under the MIT license. See LICENSE.md file in the project root for full license information.
 import os
+import sys
 
 """
 Speech synthesis samples for the Microsoft Cognitive Services Speech SDK
@@ -25,48 +28,30 @@ except ImportError:
 # Set up the subscription info for the Speech Service:
 # Replace with your own subscription key and service region (e.g., "westus").
 
-speech_key, service_region = os.environ["SPEECH_KEY"], os.environ["SPEECH_REGION"]
+SPEECH_KEY_ENV = "SPEECH_KEY"
+SPEECH_REGION_ENV = "SPEECH_REGION"
+
+if not os.environ.get(SPEECH_KEY_ENV) or not os.environ.get(SPEECH_REGION_ENV):
+    print(f"Please set/export the environment variables {SPEECH_KEY_ENV} and {SPEECH_REGION_ENV}.")
+    print(f"For example: export {SPEECH_KEY_ENV}=<key> && export {SPEECH_REGION_ENV}=<region>")
+    sys.exit(1)
+
+speech_key, service_region = os.environ[SPEECH_KEY_ENV], os.environ[SPEECH_REGION_ENV]
 
 
-def speech_synthesis_to_mp3_file():
-    """performs speech synthesis to a mp3 file"""
-    # Creates an instance of a speech config with specified subscription key and service region.
-    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
-    # Sets the synthesis output format.
-    # The full list of supported format can be found here:
-    # https://docs.microsoft.com/azure/cognitive-services/speech-service/rest-text-to-speech#audio-outputs
-    speech_config.set_speech_synthesis_output_format(speechsdk.SpeechSynthesisOutputFormat.Audio16Khz32KBitRateMonoMp3)
-    # Creates a speech synthesizer using file as audio output.
-    # Replace with your own audio file name.
-    file_name = "outputaudio1.mp3"
-    file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
-    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=file_config)
-
-    # Receives a text from console input and synthesizes it to mp3 file.
-    while True:
-        print("Enter some text that you want to synthesize, Ctrl-Z to exit")
-        try:
-            text = input()
-        except EOFError:
-            break
-        result = speech_synthesizer.speak_text_async(text).get()
-        # Check result
-        if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
-            print("Speech synthesized for text [{}], and the audio was saved to [{}]".format(text, file_name))
-        elif result.reason == speechsdk.ResultReason.Canceled:
-            cancellation_details = result.cancellation_details
-            print("Speech synthesis canceled: {}".format(cancellation_details.reason))
-            if cancellation_details.reason == speechsdk.CancellationReason.Error:
-                print("Error details: {}".format(cancellation_details.error_details))
-
-
-def speech_synthesis_bookmark_event(ssml):
-    """performs speech synthesis and shows the bookmark event."""
+def speech_synthesis_bookmark_event(ssml: str, file_name: str) -> list[dict]:
+    """performs speech synthesis and shows the bookmark event.
+    args:
+        ssml: speech as SSML
+        audio_file_name: name of the audio file to be created
+    returns:
+        list of bookmarks in the form of [{"offset": 730, "text": "bookmark1"}]
+        where offset is in millis
+    """
     bookmarks = []
     # Creates an instance of a speech config with specified subscription key and service region.
     speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
-    file_name = "outputaudio1.mp3"
     file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
     
 
@@ -92,15 +77,23 @@ def speech_synthesis_bookmark_event(ssml):
         print("Speech synthesis canceled: {}".format(cancellation_details.reason))
         if cancellation_details.reason == speechsdk.CancellationReason.Error:
             print("Error details: {}".format(cancellation_details.error_details))
-    return (bookmarks, file_name)
+    return bookmarks
 
 
 
 if __name__ == "__main__":
+    ssml_file_name = "audio.xml"
+    file_name = "outputaudio1.mp3"
+ 
+    if len(sys.argv) > 1:
+        ssml_file_name = sys.argv[1]
 
-    with open('audio.xml') as f:
+    if len(sys.argv) > 2:
+        file_name = sys.argv[2]
+
+    with open(ssml_file_name) as f:
         ssml = f.read()
-    
-    (bookmarks, file_name) = speech_synthesis_bookmark_event(ssml)
+
+    bookmarks = speech_synthesis_bookmark_event(ssml, file_name)
     print(bookmarks)
     print(file_name)

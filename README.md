@@ -1,5 +1,70 @@
 
 
+
+### setup project environment, python venv and install packages
+```bash
+source setup.sh
+```
+
+
+## Azure text to speech
+
+### important
+you need to get your keys from azure and set env variables.
+
+e.g
+```bash
+export SPEECH_KEY='lkjasldkjflaskjdflajsldfkjasd'
+export SPEECH_REGION='eastus'
+```
+
+### test azure text to spech with bookmarks
+```bash
+python3 src/text_to_speech_azure.py testdata/audio.xml testdata/audio.mp3
+```
+
+### test on a file that doesn't have any bookmarks
+```bash
+python3 src/text_to_speech_azure.py testdata/audio_without_bookmarks.xml testdata/audio_no_bookmarks.mp3
+```
+
+
+## Convert text to SSML 
+
+that wraps text into ssml xml.
+it also adds bookmarks in place of `# slide`
+and it replaces `# brake 3s` with proper SSML break.
+
+the idea is that in slides you write text not XML.
+
+```bash
+python3 src/text_to_ssml.py testdata/test_slides.txt testdata/test_slices.xml
+```
+
+
+## Extract PPTX notes
+
+reads PPTX file and extract all notes from it into a text file.
+that file can be used as input to ssml conversion above.
+
+```bash
+python3 src/pptx_notes_to_ssml.py testdata/test_slides.pptx testdata/output_ppt_notes.txt
+```
+
+
+## Convert images + timestamps into a single video with changing slides
+later you can add voice over on that to have full video.
+
+```bash
+python3 src/create_video_from_slides.py testdata/screenshot_config.json out/slide_video.mp4
+```
+
+
+
+
+## Other helpful commands just for reference
+
+
 ```bash
 ffmpeg -loop 1 -i screenshot_test.png -c:v libx264 -t 15 -pix_fmt yuv420p out.mp4
 ```
