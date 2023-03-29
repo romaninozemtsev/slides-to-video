@@ -2,12 +2,14 @@ out/
 .DS_Store
 venv
 *.pyc
-
+*.mp4
+*.mov
+*.h264
 *.mp3
 
 videos.txt
 __pycache__/
 
 test_env.sh
-
+*.ac3
 audio.xml

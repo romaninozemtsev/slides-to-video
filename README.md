@@ -59,6 +59,11 @@ later you can add voice over on that to have full video.
 python3 src/create_video_from_slides.py testdata/screenshot_config.json out/slide_video.mp4
 ```
 
+## convert folder of mov files into a single mp4 file
+```bash
+python3 src/bulk_ffmpeg.py testdata out/video.mp4
+```
+
 
 # end to end script options
 
@@ -76,14 +81,9 @@ python3 src/overall_script.py testdata/test_slides.pptx testdata/test_slides1
 ffmpeg -loop 1 -i screenshot_test.png -c:v libx264 -t 15 -pix_fmt yuv420p out.mp4
 ```
 
-
+generate empty audio
 ```bash
-python3 read_pptx.py   
-```
-
-
-```bash
-python3 create_video_from_slides.py
+ ffmpeg -f lavfi -i anullsrc=channel_layout=5.1:sample_rate=48000 -t 1 silence.mp3
 ```
 
 
