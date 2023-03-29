@@ -1,0 +1,13 @@
+out/
+.DS_Store
+venv
+*.pyc
+
+*.mp3
+
+videos.txt
+__pycache__/
+
+test_env.sh
+
+audio.xml
