@@ -60,7 +60,14 @@ python3 src/create_video_from_slides.py testdata/screenshot_config.json out/slid
 ```
 
 
+# end to end script options
 
+## Convert PPTX + screenshots to video file with sound.
+
+notes are extracted from PPTX file, then Text to speech on azure. then video is glued together. 
+```bash
+python3 src/overall_script.py testdata/test_slides.pptx testdata/test_slides1
+```
 
 ## Other helpful commands just for reference
 

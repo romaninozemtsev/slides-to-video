@@ -27,7 +27,7 @@ def extract_notes(filename: str) -> list[str]:
             notes.append(text_note)
     return notes
 
-def pptx_to_notes_str(filename: str) -> str:
+def pptx_to_notes_str(input_file_name: str) -> str:
     notes = extract_notes(input_file_name)
     return "\n# slide\n".join(notes)
 
