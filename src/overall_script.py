@@ -3,8 +3,7 @@ import os
 from create_video_from_slides import combine_with_mp3, pics_to_video_from_config
 
 from pptx_notes_to_ssml import pptx_to_ssml, txt_file_to_ssml
-from text_to_speech import speech_synthesis_bookmark_event
-
+from text_to_speech_azure import speech_synthesis_bookmark_event
 
 
 
