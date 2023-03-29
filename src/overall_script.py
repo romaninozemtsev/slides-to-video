@@ -20,7 +20,8 @@ def run_full_program(file_location: str, img_location: str, voice: str):
     mp3_location = 'out/audio_full.mp3'
     bookmarks = speech_synthesis_bookmark_event(ssml_text, mp3_location)
     print("got bookmarks", bookmarks, "and mp3", mp3_location)
-    files = sorted(os.listdir(img_location))
+    # skip hidden files like .DS_Store
+    files = sorted([x for x in os.listdir(img_location) if not x.startswith('.')])
     if len(files) != len(bookmarks):
         raise Exception(f'Number of images and number of bookmarks do not match slides {len(files)} and bookmarks {len(bookmarks)}')
     images_config = []
