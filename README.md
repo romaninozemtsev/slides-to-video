@@ -18,7 +18,7 @@ export SPEECH_KEY='lkjasldkjflaskjdflajsldfkjasd'
 export SPEECH_REGION='eastus'
 ```
 
-### test azure text to spech with bookmarks
+### test azure text to speech with bookmarks
 ```bash
 python3 src/text_to_speech_azure.py testdata/audio.xml testdata/audio.mp3
 ```
@@ -26,6 +26,11 @@ python3 src/text_to_speech_azure.py testdata/audio.xml testdata/audio.mp3
 ### test on a file that doesn't have any bookmarks
 ```bash
 python3 src/text_to_speech_azure.py testdata/audio_without_bookmarks.xml testdata/audio_no_bookmarks.mp3
+```
+
+### test azure test to speech with word boundaries
+```bash
+python3 src/text_to_speech_azure.py testdata/audio.xml testdata/audio.mp3 --words
 ```
 
 

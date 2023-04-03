@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test UI</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+  const { useState, useEffect, useRef } = React;
+  
+  function getJson({url, onError, onSuccess}) {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          onSuccess(data);
+        }).catch((error) => {
+          console.error("Error:", error);
+          onError(error);
+        });
+  }
+
+
+  function MyApp() {
+    const [audioFile, setAudioFile] = useState(null);
+    const [text, setText] = useState(null);
+    const [words, setWords] = useState(null)
+    // const audioRef = useRef(null);
+
+
+    function onError(e) {
+      console.log('error', e)
+    }
+
+    function onAudioJsonLoaded({audio, text, words}) {
+      console.log(audio, text, words)
+      setAudioFile(audio);
+      setText(text);
+      setWords(words);
+
+      //audioRef.current = new Audio(audio);
+    }
+
+    useEffect(() => {
+      getJson({url: '/ui/audio.json', onSuccess: onAudioJsonLoaded, onError});
+    }, []);
+    
+    return <div className='container'>
+      <h1>Test UI</h1>
+      <div>
+        <audio src={audioFile} type="audio/mp3" controls />
+        <pre><code>{text}</code></pre>
+      </div>
+    </div>
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<MyApp />);
+
+</script>
+</body>
+</html>

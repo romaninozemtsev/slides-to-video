@@ -7,6 +7,7 @@
 # Licensed under the MIT license. See LICENSE.md file in the project root for full license information.
 import os
 import sys
+import json
 
 """
 Speech synthesis samples for the Microsoft Cognitive Services Speech SDK
@@ -39,14 +40,21 @@ if not os.environ.get(SPEECH_KEY_ENV) or not os.environ.get(SPEECH_REGION_ENV):
 speech_key, service_region = os.environ[SPEECH_KEY_ENV], os.environ[SPEECH_REGION_ENV]
 
 
-def speech_synthesis_bookmark_event(ssml: str, file_name: str) -> list[dict]:
+class SpeechSynthesisResult:
+    def __init__(self, bookmarks: list[dict] = None, words: list[dict] = None):
+        self.bookmarks = bookmarks
+        self.words = words
+
+
+def speech_synthesis_bookmark_event(ssml: str, file_name: str, capture_bookmarks: bool = True, capture_words: bool = False) -> SpeechSynthesisResult:
     """performs speech synthesis and shows the bookmark event.
     args:
         ssml: speech as SSML
         audio_file_name: name of the audio file to be created
+        capture_bookmarks: whether to capture bookmark events
+        capture_words: whether to capture word events
     returns:
-        list of bookmarks in the form of [{"offset": 730, "text": "bookmark1"}]
-        where offset is in millis
+        SpeechSynthesisResult object with the list of bookmarks and words captured
     """
     bookmarks = []
     # Creates an instance of a speech config with specified subscription key and service region.
@@ -66,7 +74,17 @@ def speech_synthesis_bookmark_event(ssml: str, file_name: str) -> list[dict]:
 
     # Subscribes to viseme received event
     # The unit of evt.audio_offset is tick (1 tick = 100 nanoseconds), divide it by 10,000 to convert to milliseconds.
-    speech_synthesizer.bookmark_reached.connect(on_bookmark)
+    if capture_bookmarks:
+        speech_synthesizer.bookmark_reached.connect(on_bookmark)
+
+    words = []
+
+    def on_word(evt):
+        print("Word boundary reached: {}, audio offset: {}ms, word: {}.".format(evt, evt.audio_offset / 10000, evt.text))
+        words.append({"offset": evt.audio_offset / 10000, "text": evt.text})
+
+    if capture_words:
+        speech_synthesizer.synthesis_word_boundary.connect(on_word)
 
     result = speech_synthesizer.speak_ssml_async(ssml).get()
     # Check result
@@ -77,23 +95,27 @@ def speech_synthesis_bookmark_event(ssml: str, file_name: str) -> list[dict]:
         print("Speech synthesis canceled: {}".format(cancellation_details.reason))
         if cancellation_details.reason == speechsdk.CancellationReason.Error:
             print("Error details: {}".format(cancellation_details.error_details))
-    return bookmarks
-
+    return SpeechSynthesisResult(bookmarks = bookmarks, words = words)
 
 
 if __name__ == "__main__":
     ssml_file_name = "audio.xml"
     file_name = "outputaudio1.mp3"
+    capture_words = False
  
     if len(sys.argv) > 1:
         ssml_file_name = sys.argv[1]
 
     if len(sys.argv) > 2:
         file_name = sys.argv[2]
+    
+    if len(sys.argv) > 3:
+        capture_words = sys.argv[3] == '--words'
 
     with open(ssml_file_name) as f:
         ssml = f.read()
 
-    bookmarks = speech_synthesis_bookmark_event(ssml, file_name)
-    print(bookmarks)
+    result = speech_synthesis_bookmark_event(ssml, file_name, capture_bookmarks=True, capture_words=capture_words)
+    print(result.bookmarks)
     print(file_name)
+    print(json.dumps(result.words, indent=4))

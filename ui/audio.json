@@ -1,0 +1,134 @@
+{
+    "text": "These are my notes for this slide. This is very important presentation. I don't think there are more important presentations. Another not less important slide. Everything here is equally amazing. Especially here",
+    "audio": "/ui/audio.mp3",
+    "words": [
+        {
+            "offset": 50.0,
+            "text": "These"
+        },
+        {
+            "offset": 300.0,
+            "text": "are"
+        },
+        {
+            "offset": 387.5,
+            "text": "my"
+        },
+        {
+            "offset": 512.5,
+            "text": "notes"
+        },
+        {
+            "offset": 837.5,
+            "text": "for"
+        },
+        {
+            "offset": 962.5,
+            "text": "this"
+        },
+        {
+            "offset": 1137.5,
+            "text": "slide"
+        },
+        {
+            "offset": 5525.0,
+            "text": "This"
+        },
+        {
+            "offset": 5775.0,
+            "text": "is"
+        },
+        {
+            "offset": 5912.5,
+            "text": "very"
+        },
+        {
+            "offset": 6187.5,
+            "text": "important"
+        },
+        {
+            "offset": 6587.5,
+            "text": "presentation"
+        },
+        {
+            "offset": 8287.5,
+            "text": "I"
+        },
+        {
+            "offset": 8412.5,
+            "text": "don\u2019t"
+        },
+        {
+            "offset": 8637.5,
+            "text": "think"
+        },
+        {
+            "offset": 8850.0,
+            "text": "there"
+        },
+        {
+            "offset": 9000.0,
+            "text": "are"
+        },
+        {
+            "offset": 9087.5,
+            "text": "more"
+        },
+        {
+            "offset": 9275.0,
+            "text": "important"
+        },
+        {
+            "offset": 9662.5,
+            "text": "presentations"
+        },
+        {
+            "offset": 13550.0,
+            "text": "Another"
+        },
+        {
+            "offset": 13962.5,
+            "text": "not"
+        },
+        {
+            "offset": 14225.0,
+            "text": "less"
+        },
+        {
+            "offset": 14437.5,
+            "text": "important"
+        },
+        {
+            "offset": 14875.0,
+            "text": "slide"
+        },
+        {
+            "offset": 16250.0,
+            "text": "Everything"
+        },
+        {
+            "offset": 16762.5,
+            "text": "here"
+        },
+        {
+            "offset": 17150.0,
+            "text": "is"
+        },
+        {
+            "offset": 17300.0,
+            "text": "equally"
+        },
+        {
+            "offset": 17712.5,
+            "text": "amazing"
+        },
+        {
+            "offset": 20200.0,
+            "text": "Especially"
+        },
+        {
+            "offset": 20862.5,
+            "text": "here"
+        }
+    ]
+}
