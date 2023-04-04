@@ -10,6 +10,15 @@
   <!-- Don't use this in production: -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    .word:hover {
+      background-color: #f0f0f0;
+    }
+    .word.selected {
+      background-color: #ff00ff;
+    }
+  </style>
+
 </head>
 <body>
 <div id="root"></div>
@@ -27,12 +36,52 @@
         });
   }
 
+  function tokenize(text, words) {
+    let pos = 0;
+    const tokens = [];
+    for (let i = 0; i < words.length; i++) {
+      const wordObj = words[i];
+      const word = wordObj.text;
+      wordObj.start = wordObj.offset;
+      if (i < words.length - 1) {
+        wordObj.end = words[i+1].offset;
+      } else {
+        wordObj.end = wordObj.start + 40;
+      }
+      wordObj.index = i;
+      console.log(wordObj);
+      const index = text.indexOf(word, pos);
+      if (index > pos) {
+        tokens.push({type: 'text', value: text.substring(pos, index)});
+      }
+      tokens.push({type: 'word', value: word, index: i});
+      pos = index + word.length;
+    }
+    return tokens;
+  }
+
+  function TextFromTokens({tokens, selectedWordIndex}) {
+    return <div>
+      {tokens?.map((token, index) => {
+        if (token.type === 'text') {
+          return <span key={index}>{token.value}</span>
+        } else {
+          return <span key={index}
+            className={`word ${selectedWordIndex == token.index ? 'selected': ''}`}
+            id={`index-${token.index}`}>{token.value}</span>
+        }
+      })}
+    </div>
+  }
+
 
   function MyApp() {
     const [audioFile, setAudioFile] = useState(null);
     const [text, setText] = useState(null);
     const [words, setWords] = useState(null)
-    // const audioRef = useRef(null);
+    const [tokens, setTokens] = useState(null);
+    const audioRef = useRef(null);
+    const [selectedWordIndex, setSelectedWordIndex] = useState(null);
 
 
     function onError(e) {
@@ -44,19 +93,38 @@
       setAudioFile(audio);
       setText(text);
       setWords(words);
-
-      //audioRef.current = new Audio(audio);
+      setTokens(tokenize(text, words));
     }
 
     useEffect(() => {
       getJson({url: '/ui/audio.json', onSuccess: onAudioJsonLoaded, onError});
     }, []);
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        const audio = audioRef.current;
+        //console.log('interval', audio, text, words)
+        if (audio && !audio.paused && text) {
+          const time = audio.currentTime * 1000; // time in ms
+          const word = words.find(w => w.start <= time && w.end >= time);
+          if (word) {
+            console.log('word', word, time);
+            setSelectedWordIndex(word.index);
+          }
+        }
+      }, 50);
+
+      return () => {
+        clearInterval(interval);
+      };
+    }, [audioRef, text, words, setSelectedWordIndex])
     
     return <div className='container'>
       <h1>Test UI</h1>
       <div>
-        <audio src={audioFile} type="audio/mp3" controls />
-        <pre><code>{text}</code></pre>
+        <audio ref={audioRef} src={audioFile} type="audio/mp3" controls />
+        <div>{text}</div>
+        <div className='mt-4'><TextFromTokens tokens={tokens} selectedWordIndex={selectedWordIndex} /></div>
       </div>
     </div>
   }
