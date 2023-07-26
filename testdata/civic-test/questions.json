@@ -1,0 +1,509 @@
+[
+    {
+        "section": "Principles of American Democracy",
+        "questions": [
+            {
+                "number": 1,
+                "question": "What is the supreme law of the land?",
+                "answer": ["The Constitution"]
+            },
+            {
+                "number": 2,
+                "question": "What does the Constitution do?",
+                "answer": ["Sets up the government", "Defines the government", "Protects basic rights of Americans"]
+            },
+            {
+                "number": 3,
+                "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+                "answer": ["We the People"]
+            },
+            {
+                "number": 4,
+                "question": "What is an amendment?",
+                "answer": ["A change (to the Constitution)", "An addition (to the Constitution)"]
+            },
+            {
+                "number": 5,
+                "question": "What do we call the first ten amendments to the Constitution?",
+                "answer": ["The Bill of Rights"]
+            },
+            {
+                "number": 6,
+                "question": "What is one right or freedom from the First Amendment?",
+                "answer": ["Speech", "Religion", "Assembly", "Press", "Petition the government"]
+            },
+            {
+                "number": 7,
+                "question": "How many amendments does the Constitution have?",
+                "answer": ["27"]
+            },
+            {
+                "number": 8,
+                "question": "What did the Declaration of Independence do?",
+                "answer": ["Announced our independence (from Great Britain)", "Declared our independence (from Great Britain)", "Said that the United States is free (from Great Britain)"]
+            },
+            {
+                "number": 9,
+                "question": "What are two rights in the Declaration of Independence?",
+                "answer": ["Life", "Liberty", "Pursuit of happiness"]
+            },
+            {
+                "number": 10,
+                "question": "What is freedom of religion?",
+                "answer": ["You can practice any religion", "or not practice a religion"]
+            },
+            {
+                "number": 11,
+                "question": "What is the economic system in the United States?",
+                "answer": ["Capitalist economy", "Market economy"]
+            },
+            {
+                "number": 12,
+                "question": "What is the “rule of law”?",
+                "answer": ["Everyone must follow the law", "Leaders must obey the law", "Government must obey the law", "No one is above the law"]
+            }
+        ]
+    },
+    {
+        "section": "System of Government",
+        "questions": [
+            {
+                "number": 13,
+                "question": "Name one branch or part of the government.",
+                "answer": ["Congress", "Legislative", "President", "Executive", "The courts", "Judicial"]
+            },
+            {
+                "number": 14,
+                "question": "What stops one branch of government from becoming too powerful?",
+                "answer": ["Checks and balances", "Separation of powers"]
+            },
+            {
+                "number": 15,
+                "question": "Who is in charge of the executive branch?",
+                "answer": ["The President"]
+            },
+            {
+                "number": 16,
+                "question": "Who makes federal laws?",
+                "answer": ["Congress", "Senate and House (of Representatives)", "(U.S. or national) legislature"]
+            },
+            {
+                "number": 17,
+                "question": "What are the two parts of the U.S. Congress?",
+                "answer": ["The Senate and House (of Representatives)"]
+            },
+            {
+                "number": 18,
+                "question": "How many U.S. Senators are there?",
+                "answer": ["100"]
+            },
+            {
+                "number": 19,
+                "question": "We elect a U.S. Senator for how many years?",
+                "answer": ["6"]
+            },
+            {
+                "number": 20,
+                "question": "Who is one of your state’s U.S. Senators now?",
+                "answer": ["Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"]
+            },
+            {
+                "number": 21,
+                "question": "The House of Representatives has how many voting members?",
+                "answer": ["435"]
+            },
+            {
+                "number": 22,
+                "question": "We elect a U.S. Representative for how many years?",
+                "answer": ["2"]
+            }
+        ]
+    },
+    {
+        "section": "System of Government",
+        "questions": [
+            {
+                "number": 23,
+                "question": "Name your U.S. Representative.",
+                "answer": ["Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"]
+            },
+            {
+                "number": 24,
+                "question": "Who does a U.S. Senator represent?",
+                "answer": ["All people of the state"]
+            },
+            {
+                "number": 25,
+                "question": "Why do some states have more Representatives than other states?",
+                "answer": ["(because of) the state's population", "(because) they have more people", "(because) some states have more people"]
+            },
+            {
+                "number": 26,
+                "question": "We elect a President for how many years?",
+                "answer": ["4"]
+            },
+            {
+                "number": 27,
+                "question": "In what month do we vote for President?",
+                "answer": ["November"]
+            },
+            {
+                "number": 28,
+                "question": "What is the name of the President of the United States now?",
+                "answer": ["Answers will vary. The current President's name can be found online or other reliable sources."]
+            },
+            {
+                "number": 29,
+                "question": "What is the name of the Vice President of the United States now?",
+                "answer": ["Answers will vary. The current Vice President's name can be found online or other reliable sources."]
+            },
+            {
+                "number": 30,
+                "question": "If the President can no longer serve, who becomes President?",
+                "answer": ["The Vice President"]
+            },
+            {
+                "number": 31,
+                "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+                "answer": ["The Speaker of the House"]
+            },
+            {
+                "number": 32,
+                "question": "Who is the Commander in Chief of the military?",
+                "answer": ["The President"]
+            },
+            {
+                "number": 33,
+                "question": "Who signs bills to become laws?",
+                "answer": ["The President"]
+            },
+            {
+                "number": 34,
+                "question": "Who vetoes bills?",
+                "answer": ["The President"]
+            },
+            {
+                "number": 35,
+                "question": "What does the President's Cabinet do?",
+                "answer": ["Advises the President"]
+            },
+            {
+                "number": 36,
+                "question": "What are two Cabinet-level positions?",
+                "answer": [
+                    "Secretary of Agriculture",
+                    "Secretary of Commerce",
+                    "Secretary of Defense",
+                    "Secretary of Education",
+                    "Secretary of Energy",
+                    "Secretary of Health and Human Services",
+                    "Secretary of Homeland Security",
+                    "Secretary of Housing and Urban Development",
+                    "Secretary of the Interior",
+                    "Secretary of Labor",
+                    "Secretary of State",
+                    "Secretary of Transportation",
+                    "Secretary of the Treasury",
+                    "Secretary of Veterans Affairs",
+                    "Attorney General",
+                    "Vice President"
+                ]
+            },
+            {
+                "number": 37,
+                "question": "What does the judicial branch do?",
+                "answer": [
+                    "Reviews laws",
+                    "Explains laws",
+                    "Resolves disputes (disagreements)",
+                    "Decides if a law goes against the Constitution"
+                ]
+            },
+            {
+                "number": 38,
+                "question": "What is the highest court in the United States?",
+                "answer": ["The Supreme Court"]
+            },
+            {
+                "number": 39,
+                "question": "How many justices are on the Supreme Court?",
+                "answer": ["9"]
+            },
+            {
+                "number": 40,
+                "question": "Who is the Chief Justice of the United States now?",
+                "answer": ["Answers will vary. The current Chief Justice's name can be found online or other reliable sources."]
+            },
+            {
+                "number": 41,
+                "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+                "answer": ["To print money", "To declare war", "To create an army", "To make treaties"]
+            },
+            {
+                "number": 42,
+                "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+                "answer": ["Provide schooling and education", "Provide protection (police)", "Provide safety (fire departments)", "Give a driver's license", "Approve zoning and land use"]
+            },
+            {
+                "number": 43,
+                "question": "Who is the Governor of your state now?",
+                "answer": ["Answers will vary. The current Governor's name can be found online or other reliable sources."]
+            },
+            {
+                "number": 44,
+                "question": "What is the capital of your state?",
+                "answer": ["Answers will vary. The current state capital's name can be found online or other reliable sources."]
+            },
+            {
+                "number": 45,
+                "question": "What are the two major political parties in the United States?",
+                "answer": ["Democratic and Republican"]
+            },
+            {
+                "number": 46,
+                "question": "What is the political party of the President now?",
+                "answer": ["Answers will vary. The current President's political party can be found online or other reliable sources."]
+            },
+            {
+                "number": 47,
+                "question": "What is the name of the Speaker of the House of Representatives now?",
+                "answer": ["Answers will vary. The current Speaker of the House's name can be found online or other reliable sources."]
+            }
+        ]
+    },
+    {
+        "section": "Rights and Responsibilities",
+        "questions": [
+            {
+                "number": 48,
+                "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+                "answer": [
+                    "Citizens eighteen (18) and older (can vote)",
+                    "You don’t have to pay (a poll tax) to vote",
+                    "Any citizen can vote. (Women and men can vote)",
+                    "A male citizen of any race (can vote)"
+                ]
+            },
+            {
+                "number": 49,
+                "question": "What is one responsibility that is only for United States citizens?",
+                "answer": ["Serve on a jury", "Vote in a federal election"]
+            },
+            {
+                "number": 50,
+                "question": "Name one right only for United States citizens.",
+                "answer": ["Vote in a federal election", "Run for federal office"]
+            },
+            {
+                "number": 51,
+                "question": "What are two rights of everyone living in the United States?",
+                "answer": [
+                    "Freedom of expression",
+                    "Freedom of speech",
+                    "Freedom of assembly",
+                    "Freedom to petition the government",
+                    "Freedom of worship",
+                    "The right to bear arms"
+                ]
+            },
+            {
+                "number": 52,
+                "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+                "answer": ["The United States", "The flag"]
+            },
+            {
+                "number": 53,
+                "question": "What is one promise you make when you become a United States citizen?",
+                "answer": [
+                    "Give up loyalty to other countries",
+                    "Defend the Constitution and laws of the United States",
+                    "Obey the laws of the United States",
+                    "Serve in the U.S. military (if needed)",
+                    "Serve (do important work for) the nation (if needed)",
+                    "Be loyal to the United States"
+                ]
+            },
+            {
+                "number": 54,
+                "question": "How old do citizens have to be to vote for President?",
+                "answer": ["18 and older"]
+            },
+            {
+                "number": 55,
+                "question": "What are two ways that Americans can participate in their democracy?",
+                "answer": [
+                    "Vote",
+                    "Join a political party",
+                    "Help with a campaign",
+                    "Join a civic group",
+                    "Join a community group",
+                    "Give an elected official your opinion on an issue",
+                    "Call Senators and Representatives",
+                    "Publicly support or oppose an issue or policy",
+                    "Run for office",
+                    "Write to a newspaper"
+                ]
+            },
+            {
+                "number": 56,
+                "question": "When is the last day you can send in federal income tax forms?",
+                "answer": ["April 15"]
+            },
+            {
+                "number": 57,
+                "question": "When must all men register for the Selective Service?",
+                "answer": ["At age 18", "Between 18 and 26"]
+            }
+        ]
+    },
+    {
+        "section": "Colonial Period and Independence",
+        "questions": [
+            {
+                "number": 58,
+                "question": "What is one reason colonists came to America?",
+                "answer": [
+                    "Freedom",
+                    "Political liberty",
+                    "Religious freedom",
+                    "Economic opportunity",
+                    "Practice their religion",
+                    "Escape persecution"
+                ]
+            },
+            {
+                "number": 59,
+                "question": "Who lived in America before the Europeans arrived?",
+                "answer": ["American Indians", "Native Americans"]
+            },
+            {
+                "number": 60,
+                "question": "What group of people was taken to America and sold as slaves?",
+                "answer": ["Africans", "People from Africa"]
+            },
+            {
+                "number": 61,
+                "question": "Why did the colonists fight the British?",
+                "answer": [
+                    "Because of high taxes (taxation without representation)",
+                    "Because the British army stayed in their houses (boarding, quartering)",
+                    "Because they didn’t have self-government"
+                ]
+            },
+            {
+                "number": 62,
+                "question": "Who wrote the Declaration of Independence?",
+                "answer": ["(Thomas) Jefferson"]
+            },
+            {
+                "number": 63,
+                "question": "When was the Declaration of Independence adopted?",
+                "answer": ["July 4, 1776"]
+            },
+            {
+                "number": 64,
+                "question": "There were 13 original states. Name three.",
+                "answer": [
+                    "New Hampshire",
+                    "Massachusetts",
+                    "Rhode Island",
+                    "Connecticut",
+                    "New York",
+                    "New Jersey",
+                    "Pennsylvania",
+                    "Delaware",
+                    "Maryland",
+                    "Virginia",
+                    "North Carolina",
+                    "South Carolina",
+                    "Georgia"
+                ]
+            },
+            {
+                "number": 65,
+                "question": "What happened at the Constitutional Convention?",
+                "answer": ["The Constitution was written.", "The Founding Fathers wrote the Constitution."]
+            },
+            {
+                "number": 66,
+                "question": "When was the Constitution written?",
+                "answer": ["1787"]
+            },
+            {
+                "number": 67,
+                "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+                "answer": ["(James) Madison", "(Alexander) Hamilton", "(John) Jay", "Publius"]
+            },
+            {
+                "number": 68,
+                "question": "What is one thing Benjamin Franklin is famous for?",
+                "answer": [
+                    "U.S. diplomat",
+                    "Oldest member of the Constitutional Convention",
+                    "First Postmaster General of the United States",
+                    "Writer of 'Poor Richard’s Almanac'",
+                    "Started the first free libraries"
+                ]
+            },
+            {
+                "number": 69,
+                "question": "Who is the 'Father of Our Country'?",
+                "answer": ["(George) Washington"]
+            },
+            {
+                "number": 70,
+                "question": "Who was the first President?",
+                "answer": ["(George) Washington"]
+            }
+        ]
+    },
+    {
+        "section": "1800s",
+        "questions": [
+            {
+                "number": 71,
+                "question": "What territory did the United States buy from France in 1803?",
+                "answer": ["The Louisiana Territory", "Louisiana"]
+            },
+            {
+                "number": 72,
+                "question": "Name one war fought by the United States in the 1800s.",
+                "answer": ["War of 1812", "Mexican-American War", "Civil War", "Spanish-American War"]
+            },
+            {
+                "number": 73,
+                "question": "Name the U.S. war between the North and the South.",
+                "answer": ["The Civil War", "The War between the States"]
+            },
+            {
+                "number": 74,
+                "question": "Name one problem that led to the Civil War.",
+                "answer": ["Slavery", "Economic reasons", "States' rights"]
+            },
+            {
+                "number": 75,
+                "question": "What was one important thing that Abraham Lincoln did?",
+                "answer": [
+                    "Freed the slaves (Emancipation Proclamation)",
+                    "Saved (or preserved) the Union",
+                    "Led the United States during the Civil War"
+                ]
+            },
+            {
+                "number": 76,
+                "question": "What did the Emancipation Proclamation do?",
+                "answer": [
+                    "Freed the slaves",
+                    "Freed slaves in the Confederacy",
+                    "Freed slaves in the Confederate states",
+                    "Freed slaves in most Southern states"
+                ]
+            },
+            {
+                "number": 77,
+                "question": "What did Susan B. Anthony do?",
+                "answer": ["Fought for women's rights", "Fought for civil rights"]
+            }
+        ]
+    }
+]
