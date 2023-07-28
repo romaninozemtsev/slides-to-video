@@ -1,5 +1,6 @@
 import sys
 import json
+import os
 
 from ssml_helper import voice_tag, speak_tag, paragraph_tag, break_tag
 from text_to_speech_azure import speech_synthesis_bookmark_event
@@ -33,7 +34,7 @@ if __name__ == '__main__':
     # each question has "question" and "answer"
 
     result = []
-    limit = 10
+    total = 0
     with speak_tag(result):
         for section in sections:
             section_name = section["section"]
@@ -58,6 +59,7 @@ if __name__ == '__main__':
                     f.write("\n".join(q_saml))
                 with open(f"out/civic-test/saml/a{question['number']}.txt", 'w') as f:
                     f.write("\n".join(a_saml))
+                total += 1
                 
 
     saml = "\n".join(result)
@@ -65,4 +67,26 @@ if __name__ == '__main__':
 
     q_saml_str = "\n".join(q_saml)
 
-    speech_synthesis_bookmark_event(q_saml_str, 'out/civic-test/civic-test.wav', capture_bookmarks=False, capture_words=False)
+    print("creating audio files")
+
+    for i in range(1, total + 1):
+        with open(f"out/civic-test/saml/q{i}.txt", 'r') as f:
+            q_saml_str = f.read()
+        with open(f"out/civic-test/saml/a{i}.txt", 'r') as f:
+            a_saml_str = f.read()
+        
+        q_audio_file = f'out/civic-test/audio/q{i}.wav'
+        if not os.path.isfile(q_audio_file):
+            print(f"creating {q_audio_file}")
+            speech_synthesis_bookmark_event(q_saml_str, q_audio_file, capture_bookmarks=False, capture_words=False)
+        else:
+            print(f"skipping {q_audio_file}")
+         
+        a_audio_file = f'out/civic-test/audio/a{i}.wav'
+        if not os.path.isfile(a_audio_file):
+            print(f"creating {a_audio_file}")
+            speech_synthesis_bookmark_event(a_saml_str, a_audio_file, capture_bookmarks=False, capture_words=False)
+        else:
+            print(f"skipping {a_audio_file}")
+
+    #speech_synthesis_bookmark_event(q_saml_str, 'out/civic-test/civic-test.wav', capture_bookmarks=False, capture_words=False)
