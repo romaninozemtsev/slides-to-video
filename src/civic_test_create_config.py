@@ -20,8 +20,14 @@ if __name__ == "__main__":
         for question in questions:
             question_file_location = f'out/civic-test/audio/q{question["number"]}.wav'
             answer_file_location = f'out/civic-test/audio/a{question["number"]}.wav'
-            question["duration"] = read_duration(question_file_location)
-            question["answer_duration"] = read_duration(answer_file_location)
+            question_image_location = f'out/civic-test/images/{question["number"]}_q.png'
+            answer_image_location = f'out/civic-test/images/{question["number"]}_a.png'
+            #question["duration"] = read_duration(question_file_location)
+            #question["answer_duration"] = read_duration(answer_file_location)
+            question["question_image"] = question_image_location
+            question["answer_image"] = answer_image_location
+            question["question_audio"] = question_file_location
+            question["answer_audio"] = answer_file_location
 
     with open('testdata/civic-test/questions_with_duration.json', 'w') as f:
         f.write(json.dumps(sections, indent=2))

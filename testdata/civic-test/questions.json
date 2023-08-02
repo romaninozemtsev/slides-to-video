@@ -10,10 +10,12 @@
             {
                 "number": 2,
                 "question": "What does the Constitution do?",
+                "bestAnswer": 1,
                 "answer": ["Sets up the government", "Defines the government", "Protects basic rights of Americans"]
             },
             {
                 "number": 3,
+                "difficulty": "medium",
                 "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
                 "answer": ["We the People"]
             },
@@ -25,11 +27,13 @@
             {
                 "number": 5,
                 "question": "What do we call the first ten amendments to the Constitution?",
+                "difficulty": "medium",
                 "answer": ["The Bill of Rights"]
             },
             {
                 "number": 6,
                 "question": "What is one right or freedom from the First Amendment?",
+                "difficulty": "medium",
                 "answer": ["Speech", "Religion", "Assembly", "Press", "Petition the government"]
             },
             {
@@ -45,21 +49,25 @@
             {
                 "number": 9,
                 "question": "What are two rights in the Declaration of Independence?",
+                "bestAnswer": [0, 1],
                 "answer": ["Life", "Liberty", "Pursuit of happiness"]
             },
             {
                 "number": 10,
                 "question": "What is freedom of religion?",
-                "answer": ["You can practice any religion", "or not practice a religion"]
+                "answer": ["You can practice any religion, or not practice a religion"]
             },
             {
                 "number": 11,
                 "question": "What is the economic system in the United States?",
+                "bestAnswer": [1],
+                "difficulty": "medium",
                 "answer": ["Capitalist economy", "Market economy"]
             },
             {
                 "number": 12,
                 "question": "What is the “rule of law”?",
+                "difficulty": "medium",
                 "answer": ["Everyone must follow the law", "Leaders must obey the law", "Government must obey the law", "No one is above the law"]
             }
         ]
@@ -70,6 +78,7 @@
             {
                 "number": 13,
                 "question": "Name one branch or part of the government.",
+                "bestAnswer": [2],
                 "answer": ["Congress", "Legislative", "President", "Executive", "The courts", "Judicial"]
             },
             {
@@ -85,10 +94,12 @@
             {
                 "number": 16,
                 "question": "Who makes federal laws?",
+                "difficulty": "medium",
                 "answer": ["Congress", "Senate and House (of Representatives)", "(U.S. or national) legislature"]
             },
             {
                 "number": 17,
+                "difficulty": "medium",
                 "question": "What are the two parts of the U.S. Congress?",
                 "answer": ["The Senate and House (of Representatives)"]
             },
@@ -99,21 +110,26 @@
             },
             {
                 "number": 19,
+                "difficulty": "hard",
                 "question": "We elect a U.S. Senator for how many years?",
                 "answer": ["6"]
             },
             {
                 "number": 20,
                 "question": "Who is one of your state’s U.S. Senators now?",
-                "answer": ["Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"]
+                "difficulty": "hard",
+                "answer": ["Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"],
+                "byState": {"CA": ["Dianne Feinstein"]}
             },
             {
                 "number": 21,
+                "difficulty": "hard",
                 "question": "The House of Representatives has how many voting members?",
                 "answer": ["435"]
             },
             {
                 "number": 22,
+                "difficulty": "hard",
                 "question": "We elect a U.S. Representative for how many years?",
                 "answer": ["2"]
             }
@@ -124,17 +140,21 @@
         "questions": [
             {
                 "number": 23,
+                "difficulty": "hard",
                 "question": "Name your U.S. Representative.",
-                "answer": ["Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"]
+                "answer": ["Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"],
+                "byZip": {"94065": "Kevin Mullin"}
             },
             {
                 "number": 24,
                 "question": "Who does a U.S. Senator represent?",
+                "difficulty": "medium",
                 "answer": ["All people of the state"]
             },
             {
                 "number": 25,
                 "question": "Why do some states have more Representatives than other states?",
+                "bestAnswer": [1],
                 "answer": ["(because of) the state's population", "(because) they have more people", "(because) some states have more people"]
             },
             {
@@ -150,12 +170,12 @@
             {
                 "number": 28,
                 "question": "What is the name of the President of the United States now?",
-                "answer": ["Answers will vary. The current President's name can be found online or other reliable sources."]
+                "answer": ["Joe Biden"]
             },
             {
                 "number": 29,
                 "question": "What is the name of the Vice President of the United States now?",
-                "answer": ["Answers will vary. The current Vice President's name can be found online or other reliable sources."]
+                "answer": ["Kamala Harris"]
             },
             {
                 "number": 30,
@@ -185,11 +205,14 @@
             {
                 "number": 35,
                 "question": "What does the President's Cabinet do?",
+                "difficulty": "medium",
                 "answer": ["Advises the President"]
             },
             {
                 "number": 36,
                 "question": "What are two Cabinet-level positions?",
+                "difficulty": "medium",
+                "bestAnswer": [3, 11],
                 "answer": [
                     "Secretary of Agriculture",
                     "Secretary of Commerce",
@@ -212,6 +235,7 @@
             {
                 "number": 37,
                 "question": "What does the judicial branch do?",
+                "difficulty": "hard",
                 "answer": [
                     "Reviews laws",
                     "Explains laws",
@@ -227,31 +251,37 @@
             {
                 "number": 39,
                 "question": "How many justices are on the Supreme Court?",
+                "difficulty": "medium",
                 "answer": ["9"]
             },
             {
                 "number": 40,
                 "question": "Who is the Chief Justice of the United States now?",
-                "answer": ["Answers will vary. The current Chief Justice's name can be found online or other reliable sources."]
+                "difficulty": "hard",
+                "answer": ["John Roberts"]
             },
             {
                 "number": 41,
                 "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+                "difficulty": "medium",
                 "answer": ["To print money", "To declare war", "To create an army", "To make treaties"]
             },
             {
                 "number": 42,
                 "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+                "difficulty": "medium",
                 "answer": ["Provide schooling and education", "Provide protection (police)", "Provide safety (fire departments)", "Give a driver's license", "Approve zoning and land use"]
             },
             {
                 "number": 43,
                 "question": "Who is the Governor of your state now?",
+                "byState": {"CA": "Gavin Newsom"},
                 "answer": ["Answers will vary. The current Governor's name can be found online or other reliable sources."]
             },
             {
                 "number": 44,
                 "question": "What is the capital of your state?",
+                "byState": {"CA": "Sacramento"},
                 "answer": ["Answers will vary. The current state capital's name can be found online or other reliable sources."]
             },
             {
@@ -262,12 +292,12 @@
             {
                 "number": 46,
                 "question": "What is the political party of the President now?",
-                "answer": ["Answers will vary. The current President's political party can be found online or other reliable sources."]
+                "answer": ["Democratic Party"]
             },
             {
                 "number": 47,
                 "question": "What is the name of the Speaker of the House of Representatives now?",
-                "answer": ["Answers will vary. The current Speaker of the House's name can be found online or other reliable sources."]
+                "answer": ["Kevin McCarthy"]
             }
         ]
     },
@@ -277,6 +307,7 @@
             {
                 "number": 48,
                 "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+                "difficulty": "medium",
                 "answer": [
                     "Citizens eighteen (18) and older (can vote)",
                     "You don’t have to pay (a poll tax) to vote",
@@ -287,16 +318,21 @@
             {
                 "number": 49,
                 "question": "What is one responsibility that is only for United States citizens?",
+                "bestAnswer": [1],
+                "difficulty": "medium",
                 "answer": ["Serve on a jury", "Vote in a federal election"]
             },
             {
                 "number": 50,
                 "question": "Name one right only for United States citizens.",
+                "difficulty": "medium",
                 "answer": ["Vote in a federal election", "Run for federal office"]
             },
             {
                 "number": 51,
                 "question": "What are two rights of everyone living in the United States?",
+                "bestAnswer": [1, 3],
+                "difficulty": "medium",
                 "answer": [
                     "Freedom of expression",
                     "Freedom of speech",
@@ -309,11 +345,14 @@
             {
                 "number": 52,
                 "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+                "difficulty": "medium",
                 "answer": ["The United States", "The flag"]
             },
             {
                 "number": 53,
                 "question": "What is one promise you make when you become a United States citizen?",
+                "bestAnswer": [5],
+                "difficulty": "hard",
                 "answer": [
                     "Give up loyalty to other countries",
                     "Defend the Constitution and laws of the United States",
@@ -351,6 +390,7 @@
             },
             {
                 "number": 57,
+                "difficulty": "medium",
                 "question": "When must all men register for the Selective Service?",
                 "answer": ["At age 18", "Between 18 and 26"]
             }
@@ -361,6 +401,7 @@
         "questions": [
             {
                 "number": 58,
+                "difficulty": "medium",
                 "question": "What is one reason colonists came to America?",
                 "answer": [
                     "Freedom",
@@ -373,17 +414,20 @@
             },
             {
                 "number": 59,
+                "difficulty": "medium",
                 "question": "Who lived in America before the Europeans arrived?",
                 "answer": ["American Indians", "Native Americans"]
             },
             {
                 "number": 60,
+                "difficulty": "medium",
                 "question": "What group of people was taken to America and sold as slaves?",
                 "answer": ["Africans", "People from Africa"]
             },
             {
                 "number": 61,
                 "question": "Why did the colonists fight the British?",
+                "difficulty": "medium",
                 "answer": [
                     "Because of high taxes (taxation without representation)",
                     "Because the British army stayed in their houses (boarding, quartering)",
@@ -392,17 +436,20 @@
             },
             {
                 "number": 62,
+                "difficulty": "medium",
                 "question": "Who wrote the Declaration of Independence?",
                 "answer": ["(Thomas) Jefferson"]
             },
             {
                 "number": 63,
+                "difficulty": "hard",
                 "question": "When was the Declaration of Independence adopted?",
                 "answer": ["July 4, 1776"]
             },
             {
                 "number": 64,
                 "question": "There were 13 original states. Name three.",
+                "bestAnswer": [0, 4, 5],
                 "answer": [
                     "New Hampshire",
                     "Massachusetts",
@@ -427,16 +474,20 @@
             {
                 "number": 66,
                 "question": "When was the Constitution written?",
+                "difficulty": "hard",
                 "answer": ["1787"]
             },
             {
                 "number": 67,
                 "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+                "bestAnswer": 1,
+                "difficulty": "hard",
                 "answer": ["(James) Madison", "(Alexander) Hamilton", "(John) Jay", "Publius"]
             },
             {
                 "number": 68,
                 "question": "What is one thing Benjamin Franklin is famous for?",
+                "difficulty": "medium",
                 "answer": [
                     "U.S. diplomat",
                     "Oldest member of the Constitutional Convention",
@@ -463,11 +514,14 @@
             {
                 "number": 71,
                 "question": "What territory did the United States buy from France in 1803?",
+                "bestAnswer": 1,
+                "difficulty": "medium",
                 "answer": ["The Louisiana Territory", "Louisiana"]
             },
             {
                 "number": 72,
                 "question": "Name one war fought by the United States in the 1800s.",
+                "bestAnswer": 2,
                 "answer": ["War of 1812", "Mexican-American War", "Civil War", "Spanish-American War"]
             },
             {
@@ -492,6 +546,7 @@
             {
                 "number": 76,
                 "question": "What did the Emancipation Proclamation do?",
+                "difficulty": "medium",
                 "answer": [
                     "Freed the slaves",
                     "Freed slaves in the Confederacy",
@@ -502,7 +557,176 @@
             {
                 "number": 77,
                 "question": "What did Susan B. Anthony do?",
+                "difficulty": "hard",
                 "answer": ["Fought for women's rights", "Fought for civil rights"]
+            }
+        ]
+    },
+    {
+        "section": "Recent American History and Other Important Historical Information",
+        "questions": [
+            {
+                "number": 78,
+                "question": "Name one war fought by the United States in the 1900s.",
+                "bestAnswer": 1,
+                "answer": ["World War I", "World War II", "Korean War", "Vietnam War", "(Persian) Gulf War"]
+            },
+            {
+                "number": 79,
+                "question": "Who was President during World War I?",
+                "difficulty": "hard",
+                "answer": ["(Woodrow) Wilson"]
+            },
+            {
+                "number": 80,
+                "question": "Who was President during the Great Depression and World War II?",
+                "answer": ["(Franklin) Roosevelt"]
+            },
+            {
+                "number": 81,
+                "question": "Who did the United States fight in World War II?",
+                "answer": ["Japan, Germany, and Italy"]
+            },
+            {
+                "number": 82,
+                "question": "Before he was President, Eisenhower was a general. What war was he in?",
+                "answer": ["World War II"]
+            },
+            {
+                "number": 83,
+                "question": "During the Cold War, what was the main concern of the United States?",
+                "difficulty": "medium",
+                "answer": ["Communism"]
+            },
+            {
+                "number": 84,
+                "question": "What movement tried to end racial discrimination?",
+                "difficulty": "medium",
+                "answer": ["Civil rights (movement)"]
+            },
+            {
+                "number": 85,
+                "question": "What did Martin Luther King, Jr. do?",
+                "difficulty": "medium",
+                "answer": ["Fought for civil rights", "Worked for equality for all Americans"]
+            },
+            {
+                "number": 86,
+                "question": "What major event happened on September 11, 2001, in the United States?",
+                "answer": ["Terrorists attacked the United States"]
+            },
+            {
+                "number": 87,
+                "question": "Name one American Indian tribe in the United States.",
+                "difficulty": "hard",
+                "answer": [
+                    "Cherokee", 
+                    "Navajo", 
+                    "Sioux", 
+                    "Chippewa", 
+                    "Choctaw", 
+                    "Pueblo", 
+                    "Apache", 
+                    "Iroquois", 
+                    "Creek", 
+                    "Blackfeet", 
+                    "Seminole", 
+                    "Cheyenne", 
+                    "Arawak", 
+                    "Shawnee", 
+                    "Mohegan", 
+                    "Huron", 
+                    "Oneida", 
+                    "Lakota", 
+                    "Crow", 
+                    "Teton", 
+                    "Hopi", 
+                    "Inuit"
+                ]
+            }
+        ]
+    },
+    {
+        "section": "Geography",
+        "questions": [
+            {
+                "number": 88,
+                "question": "Name one of the two longest rivers in the United States.",
+                "answer": ["Missouri (River)", "Mississippi (River)"],
+                "bestAnswer": 1
+            },
+            {
+                "number": 89,
+                "question": "What ocean is on the West Coast of the United States?",
+                "answer": ["Pacific (Ocean)"]
+            },
+            {
+                "number": 90,
+                "question": "What ocean is on the East Coast of the United States?",
+                "answer": ["Atlantic (Ocean)"]
+            },
+            {
+                "number": 91,
+                "question": "Name one U.S. territory.",
+                "answer": ["Puerto Rico", "U.S. Virgin Islands", "American Samoa", "Northern Mariana Islands", "Guam"]
+            },
+            {
+                "number": 92,
+                "question": "Name one state that borders Canada.",
+                "bestAnswer": [12],
+                "answer": ["Maine", "New Hampshire", "Vermont", "New York", "Pennsylvania", "Ohio", "Michigan", "Minnesota", "North Dakota", "Montana", "Idaho", "Washington", "Alaska"]
+            },
+            {
+                "number": 93,
+                "question": "Name one state that borders Mexico.",
+                "answer": ["California", "Arizona", "New Mexico", "Texas"]
+            },
+            {
+                "number": 94,
+                "question": "What is the capital of the United States?",
+                "answer": ["Washington, D.C."]
+            },
+            {
+                "number": 95,
+                "question": "Where is the Statue of Liberty?",
+                "answer": ["New York (Harbor)", "Liberty Island"]
+            }
+        ]
+    },
+    {
+        "section": "Symbols",
+        "questions": [
+            {
+                "number": 96,
+                "question": "Why does the flag have 13 stripes?",
+                "answer": ["Because there were 13 original colonies", "Because the stripes represent the original colonies"]
+            },
+            {
+                "number": 97,
+                "question": "Why does the flag have 50 stars?",
+                "answer": ["Because there is one star for each state", "Because each star represents a state", "Because there are 50 states"]
+            },
+            {
+                "number": 98,
+                "question": "What is the name of the national anthem?",
+                "answer": ["The Star-Spangled Banner"],
+                "difficulty": "hard"
+            }
+        ]
+    },
+    {
+        "section": "Holidays",
+        "questions": [
+            {
+                "number": 99,
+                "question": "When do we celebrate Independence Day?",
+                "answer": ["July 4"]
+            },
+            {
+                "number": 100,
+                "bestAnswer": [4, 8],
+                "question": "Name two national U.S. holidays.",
+                "answer": ["New Year’s Day", "Martin Luther King, Jr. Day", "Presidents' Day (Washington’s Birthday)", "Memorial Day", "Independence Day", "Labor Day", "Columbus Day", "Veterans Day", "Thanksgiving", "Christmas"]
             }
         ]
     }

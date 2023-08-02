@@ -8,28 +8,36 @@
         "answer": [
           "The Constitution"
         ],
-        "duration": 3.816,
-        "answer_duration": 1.98
+        "question_image": "out/civic-test/images/1_q.png",
+        "answer_image": "out/civic-test/images/1_a.png",
+        "question_audio": "out/civic-test/audio/q1.wav",
+        "answer_audio": "out/civic-test/audio/a1.wav"
       },
       {
         "number": 2,
         "question": "What does the Constitution do?",
+        "bestAnswer": 1,
         "answer": [
           "Sets up the government",
           "Defines the government",
           "Protects basic rights of Americans"
         ],
-        "duration": 3.6,
-        "answer_duration": 7.128
+        "question_image": "out/civic-test/images/2_q.png",
+        "answer_image": "out/civic-test/images/2_a.png",
+        "question_audio": "out/civic-test/audio/q2.wav",
+        "answer_audio": "out/civic-test/audio/a2.wav"
       },
       {
         "number": 3,
+        "difficulty": "medium",
         "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
         "answer": [
           "We the People"
         ],
-        "duration": 7.848,
-        "answer_duration": 1.764
+        "question_image": "out/civic-test/images/3_q.png",
+        "answer_image": "out/civic-test/images/3_a.png",
+        "question_audio": "out/civic-test/audio/q3.wav",
+        "answer_audio": "out/civic-test/audio/a3.wav"
       },
       {
         "number": 4,
@@ -38,21 +46,27 @@
           "A change (to the Constitution)",
           "An addition (to the Constitution)"
         ],
-        "duration": 3.06,
-        "answer_duration": 5.652
+        "question_image": "out/civic-test/images/4_q.png",
+        "answer_image": "out/civic-test/images/4_a.png",
+        "question_audio": "out/civic-test/audio/q4.wav",
+        "answer_audio": "out/civic-test/audio/a4.wav"
       },
       {
         "number": 5,
         "question": "What do we call the first ten amendments to the Constitution?",
+        "difficulty": "medium",
         "answer": [
           "The Bill of Rights"
         ],
-        "duration": 5.112,
-        "answer_duration": 2.016
+        "question_image": "out/civic-test/images/5_q.png",
+        "answer_image": "out/civic-test/images/5_a.png",
+        "question_audio": "out/civic-test/audio/q5.wav",
+        "answer_audio": "out/civic-test/audio/a5.wav"
       },
       {
         "number": 6,
         "question": "What is one right or freedom from the First Amendment?",
+        "difficulty": "medium",
         "answer": [
           "Speech",
           "Religion",
@@ -60,8 +74,10 @@
           "Press",
           "Petition the government"
         ],
-        "duration": 4.716,
-        "answer_duration": 8.244
+        "question_image": "out/civic-test/images/6_q.png",
+        "answer_image": "out/civic-test/images/6_a.png",
+        "question_audio": "out/civic-test/audio/q6.wav",
+        "answer_audio": "out/civic-test/audio/a6.wav"
       },
       {
         "number": 7,
@@ -69,8 +85,10 @@
         "answer": [
           "27"
         ],
-        "duration": 4.464,
-        "answer_duration": 1.764
+        "question_image": "out/civic-test/images/7_q.png",
+        "answer_image": "out/civic-test/images/7_a.png",
+        "question_audio": "out/civic-test/audio/q7.wav",
+        "answer_audio": "out/civic-test/audio/a7.wav"
       },
       {
         "number": 8,
@@ -80,51 +98,69 @@
           "Declared our independence (from Great Britain)",
           "Said that the United States is free (from Great Britain)"
         ],
-        "duration": 4.212,
-        "answer_duration": 10.728
+        "question_image": "out/civic-test/images/8_q.png",
+        "answer_image": "out/civic-test/images/8_a.png",
+        "question_audio": "out/civic-test/audio/q8.wav",
+        "answer_audio": "out/civic-test/audio/a8.wav"
       },
       {
         "number": 9,
         "question": "What are two rights in the Declaration of Independence?",
+        "bestAnswer": [
+          0,
+          1
+        ],
         "answer": [
           "Life",
           "Liberty",
           "Pursuit of happiness"
         ],
-        "duration": 4.752,
-        "answer_duration": 5.076
+        "question_image": "out/civic-test/images/9_q.png",
+        "answer_image": "out/civic-test/images/9_a.png",
+        "question_audio": "out/civic-test/audio/q9.wav",
+        "answer_audio": "out/civic-test/audio/a9.wav"
       },
       {
         "number": 10,
         "question": "What is freedom of religion?",
         "answer": [
-          "You can practice any religion",
-          "or not practice a religion"
+          "You can practice any religion, or not practice a religion"
         ],
-        "duration": 3.384,
-        "answer_duration": 4.932
+        "question_image": "out/civic-test/images/10_q.png",
+        "answer_image": "out/civic-test/images/10_a.png",
+        "question_audio": "out/civic-test/audio/q10.wav",
+        "answer_audio": "out/civic-test/audio/a10.wav"
       },
       {
         "number": 11,
         "question": "What is the economic system in the United States?",
+        "bestAnswer": [
+          1
+        ],
+        "difficulty": "medium",
         "answer": [
           "Capitalist economy",
           "Market economy"
         ],
-        "duration": 4.644,
-        "answer_duration": 4.068
+        "question_image": "out/civic-test/images/11_q.png",
+        "answer_image": "out/civic-test/images/11_a.png",
+        "question_audio": "out/civic-test/audio/q11.wav",
+        "answer_audio": "out/civic-test/audio/a11.wav"
       },
       {
         "number": 12,
         "question": "What is the \u201crule of law\u201d?",
+        "difficulty": "medium",
         "answer": [
           "Everyone must follow the law",
           "Leaders must obey the law",
           "Government must obey the law",
           "No one is above the law"
         ],
-        "duration": 3.312,
-        "answer_duration": 9.396
+        "question_image": "out/civic-test/images/12_q.png",
+        "answer_image": "out/civic-test/images/12_a.png",
+        "question_audio": "out/civic-test/audio/q12.wav",
+        "answer_audio": "out/civic-test/audio/a12.wav"
       }
     ]
   },
@@ -134,6 +170,9 @@
       {
         "number": 13,
         "question": "Name one branch or part of the government.",
+        "bestAnswer": [
+          2
+        ],
         "answer": [
           "Congress",
           "Legislative",
@@ -142,8 +181,10 @@
           "The courts",
           "Judicial"
         ],
-        "duration": 3.924,
-        "answer_duration": 9.828
+        "question_image": "out/civic-test/images/13_q.png",
+        "answer_image": "out/civic-test/images/13_a.png",
+        "question_audio": "out/civic-test/audio/q13.wav",
+        "answer_audio": "out/civic-test/audio/a13.wav"
       },
       {
         "number": 14,
@@ -152,8 +193,10 @@
           "Checks and balances",
           "Separation of powers"
         ],
-        "duration": 5.112,
-        "answer_duration": 4.752
+        "question_image": "out/civic-test/images/14_q.png",
+        "answer_image": "out/civic-test/images/14_a.png",
+        "question_audio": "out/civic-test/audio/q14.wav",
+        "answer_audio": "out/civic-test/audio/a14.wav"
       },
       {
         "number": 15,
@@ -161,28 +204,36 @@
         "answer": [
           "The President"
         ],
-        "duration": 4.068,
-        "answer_duration": 1.728
+        "question_image": "out/civic-test/images/15_q.png",
+        "answer_image": "out/civic-test/images/15_a.png",
+        "question_audio": "out/civic-test/audio/q15.wav",
+        "answer_audio": "out/civic-test/audio/a15.wav"
       },
       {
         "number": 16,
         "question": "Who makes federal laws?",
+        "difficulty": "medium",
         "answer": [
           "Congress",
           "Senate and House (of Representatives)",
           "(U.S. or national) legislature"
         ],
-        "duration": 3.312,
-        "answer_duration": 8.028
+        "question_image": "out/civic-test/images/16_q.png",
+        "answer_image": "out/civic-test/images/16_a.png",
+        "question_audio": "out/civic-test/audio/q16.wav",
+        "answer_audio": "out/civic-test/audio/a16.wav"
       },
       {
         "number": 17,
+        "difficulty": "medium",
         "question": "What are the two parts of the U.S. Congress?",
         "answer": [
           "The Senate and House (of Representatives)"
         ],
-        "duration": 4.176,
-        "answer_duration": 3.42
+        "question_image": "out/civic-test/images/17_q.png",
+        "answer_image": "out/civic-test/images/17_a.png",
+        "question_audio": "out/civic-test/audio/q17.wav",
+        "answer_audio": "out/civic-test/audio/a17.wav"
       },
       {
         "number": 18,
@@ -190,44 +241,63 @@
         "answer": [
           "100"
         ],
-        "duration": 3.816,
-        "answer_duration": 1.728
+        "question_image": "out/civic-test/images/18_q.png",
+        "answer_image": "out/civic-test/images/18_a.png",
+        "question_audio": "out/civic-test/audio/q18.wav",
+        "answer_audio": "out/civic-test/audio/a18.wav"
       },
       {
         "number": 19,
+        "difficulty": "hard",
         "question": "We elect a U.S. Senator for how many years?",
         "answer": [
           "6"
         ],
-        "duration": 4.428,
-        "answer_duration": 1.728
+        "question_image": "out/civic-test/images/19_q.png",
+        "answer_image": "out/civic-test/images/19_a.png",
+        "question_audio": "out/civic-test/audio/q19.wav",
+        "answer_audio": "out/civic-test/audio/a19.wav"
       },
       {
         "number": 20,
         "question": "Who is one of your state\u2019s U.S. Senators now?",
+        "difficulty": "hard",
         "answer": [
           "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"
         ],
-        "duration": 4.14,
-        "answer_duration": 11.232
+        "byState": {
+          "CA": [
+            "Dianne Feinstein"
+          ]
+        },
+        "question_image": "out/civic-test/images/20_q.png",
+        "answer_image": "out/civic-test/images/20_a.png",
+        "question_audio": "out/civic-test/audio/q20.wav",
+        "answer_audio": "out/civic-test/audio/a20.wav"
       },
       {
         "number": 21,
+        "difficulty": "hard",
         "question": "The House of Representatives has how many voting members?",
         "answer": [
           "435"
         ],
-        "duration": 4.86,
-        "answer_duration": 2.484
+        "question_image": "out/civic-test/images/21_q.png",
+        "answer_image": "out/civic-test/images/21_a.png",
+        "question_audio": "out/civic-test/audio/q21.wav",
+        "answer_audio": "out/civic-test/audio/a21.wav"
       },
       {
         "number": 22,
+        "difficulty": "hard",
         "question": "We elect a U.S. Representative for how many years?",
         "answer": [
           "2"
         ],
-        "duration": 4.716,
-        "answer_duration": 1.404
+        "question_image": "out/civic-test/images/22_q.png",
+        "answer_image": "out/civic-test/images/22_a.png",
+        "question_audio": "out/civic-test/audio/q22.wav",
+        "answer_audio": "out/civic-test/audio/a22.wav"
       }
     ]
   },
@@ -236,32 +306,46 @@
     "questions": [
       {
         "number": 23,
+        "difficulty": "hard",
         "question": "Name your U.S. Representative.",
         "answer": [
           "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"
         ],
-        "duration": 3.672,
-        "answer_duration": 15.48
+        "byZip": {
+          "94065": "Kevin Mullin"
+        },
+        "question_image": "out/civic-test/images/23_q.png",
+        "answer_image": "out/civic-test/images/23_a.png",
+        "question_audio": "out/civic-test/audio/q23.wav",
+        "answer_audio": "out/civic-test/audio/a23.wav"
       },
       {
         "number": 24,
         "question": "Who does a U.S. Senator represent?",
+        "difficulty": "medium",
         "answer": [
           "All people of the state"
         ],
-        "duration": 3.96,
-        "answer_duration": 2.196
+        "question_image": "out/civic-test/images/24_q.png",
+        "answer_image": "out/civic-test/images/24_a.png",
+        "question_audio": "out/civic-test/audio/q24.wav",
+        "answer_audio": "out/civic-test/audio/a24.wav"
       },
       {
         "number": 25,
         "question": "Why do some states have more Representatives than other states?",
+        "bestAnswer": [
+          1
+        ],
         "answer": [
           "(because of) the state's population",
           "(because) they have more people",
           "(because) some states have more people"
         ],
-        "duration": 5.4,
-        "answer_duration": 8.856
+        "question_image": "out/civic-test/images/25_q.png",
+        "answer_image": "out/civic-test/images/25_a.png",
+        "question_audio": "out/civic-test/audio/q25.wav",
+        "answer_audio": "out/civic-test/audio/a25.wav"
       },
       {
         "number": 26,
@@ -269,8 +353,10 @@
         "answer": [
           "4"
         ],
-        "duration": 4.176,
-        "answer_duration": 1.548
+        "question_image": "out/civic-test/images/26_q.png",
+        "answer_image": "out/civic-test/images/26_a.png",
+        "question_audio": "out/civic-test/audio/q26.wav",
+        "answer_audio": "out/civic-test/audio/a26.wav"
       },
       {
         "number": 27,
@@ -278,26 +364,32 @@
         "answer": [
           "November"
         ],
-        "duration": 3.924,
-        "answer_duration": 1.656
+        "question_image": "out/civic-test/images/27_q.png",
+        "answer_image": "out/civic-test/images/27_a.png",
+        "question_audio": "out/civic-test/audio/q27.wav",
+        "answer_audio": "out/civic-test/audio/a27.wav"
       },
       {
         "number": 28,
         "question": "What is the name of the President of the United States now?",
         "answer": [
-          "Answers will vary. The current President's name can be found online or other reliable sources."
+          "Joe Biden"
         ],
-        "duration": 4.752,
-        "answer_duration": 6.84
+        "question_image": "out/civic-test/images/28_q.png",
+        "answer_image": "out/civic-test/images/28_a.png",
+        "question_audio": "out/civic-test/audio/q28.wav",
+        "answer_audio": "out/civic-test/audio/a28.wav"
       },
       {
         "number": 29,
         "question": "What is the name of the Vice President of the United States now?",
         "answer": [
-          "Answers will vary. The current Vice President's name can be found online or other reliable sources."
+          "Kamala Harris"
         ],
-        "duration": 4.896,
-        "answer_duration": 7.128
+        "question_image": "out/civic-test/images/29_q.png",
+        "answer_image": "out/civic-test/images/29_a.png",
+        "question_audio": "out/civic-test/audio/q29.wav",
+        "answer_audio": "out/civic-test/audio/a29.wav"
       },
       {
         "number": 30,
@@ -305,8 +397,10 @@
         "answer": [
           "The Vice President"
         ],
-        "duration": 5.112,
-        "answer_duration": 2.016
+        "question_image": "out/civic-test/images/30_q.png",
+        "answer_image": "out/civic-test/images/30_a.png",
+        "question_audio": "out/civic-test/audio/q30.wav",
+        "answer_audio": "out/civic-test/audio/a30.wav"
       },
       {
         "number": 31,
@@ -314,8 +408,10 @@
         "answer": [
           "The Speaker of the House"
         ],
-        "duration": 6.372,
-        "answer_duration": 2.232
+        "question_image": "out/civic-test/images/31_q.png",
+        "answer_image": "out/civic-test/images/31_a.png",
+        "question_audio": "out/civic-test/audio/q31.wav",
+        "answer_audio": "out/civic-test/audio/a31.wav"
       },
       {
         "number": 32,
@@ -323,8 +419,10 @@
         "answer": [
           "The President"
         ],
-        "duration": 4.176,
-        "answer_duration": 1.728
+        "question_image": "out/civic-test/images/32_q.png",
+        "answer_image": "out/civic-test/images/32_a.png",
+        "question_audio": "out/civic-test/audio/q32.wav",
+        "answer_audio": "out/civic-test/audio/a32.wav"
       },
       {
         "number": 33,
@@ -332,8 +430,10 @@
         "answer": [
           "The President"
         ],
-        "duration": 3.888,
-        "answer_duration": 1.728
+        "question_image": "out/civic-test/images/33_q.png",
+        "answer_image": "out/civic-test/images/33_a.png",
+        "question_audio": "out/civic-test/audio/q33.wav",
+        "answer_audio": "out/civic-test/audio/a33.wav"
       },
       {
         "number": 34,
@@ -341,21 +441,31 @@
         "answer": [
           "The President"
         ],
-        "duration": 3.204,
-        "answer_duration": 1.728
+        "question_image": "out/civic-test/images/34_q.png",
+        "answer_image": "out/civic-test/images/34_a.png",
+        "question_audio": "out/civic-test/audio/q34.wav",
+        "answer_audio": "out/civic-test/audio/a34.wav"
       },
       {
         "number": 35,
         "question": "What does the President's Cabinet do?",
+        "difficulty": "medium",
         "answer": [
           "Advises the President"
         ],
-        "duration": 3.816,
-        "answer_duration": 2.268
+        "question_image": "out/civic-test/images/35_q.png",
+        "answer_image": "out/civic-test/images/35_a.png",
+        "question_audio": "out/civic-test/audio/q35.wav",
+        "answer_audio": "out/civic-test/audio/a35.wav"
       },
       {
         "number": 36,
         "question": "What are two Cabinet-level positions?",
+        "difficulty": "medium",
+        "bestAnswer": [
+          3,
+          11
+        ],
         "answer": [
           "Secretary of Agriculture",
           "Secretary of Commerce",
@@ -374,20 +484,25 @@
           "Attorney General",
           "Vice President"
         ],
-        "duration": 4.068,
-        "answer_duration": 39.24
+        "question_image": "out/civic-test/images/36_q.png",
+        "answer_image": "out/civic-test/images/36_a.png",
+        "question_audio": "out/civic-test/audio/q36.wav",
+        "answer_audio": "out/civic-test/audio/a36.wav"
       },
       {
         "number": 37,
         "question": "What does the judicial branch do?",
+        "difficulty": "hard",
         "answer": [
           "Reviews laws",
           "Explains laws",
           "Resolves disputes (disagreements)",
           "Decides if a law goes against the Constitution"
         ],
-        "duration": 3.636,
-        "answer_duration": 10.692
+        "question_image": "out/civic-test/images/37_q.png",
+        "answer_image": "out/civic-test/images/37_a.png",
+        "question_audio": "out/civic-test/audio/q37.wav",
+        "answer_audio": "out/civic-test/audio/a37.wav"
       },
       {
         "number": 38,
@@ -395,42 +510,54 @@
         "answer": [
           "The Supreme Court"
         ],
-        "duration": 4.392,
-        "answer_duration": 1.944
+        "question_image": "out/civic-test/images/38_q.png",
+        "answer_image": "out/civic-test/images/38_a.png",
+        "question_audio": "out/civic-test/audio/q38.wav",
+        "answer_audio": "out/civic-test/audio/a38.wav"
       },
       {
         "number": 39,
         "question": "How many justices are on the Supreme Court?",
+        "difficulty": "medium",
         "answer": [
           "9"
         ],
-        "duration": 4.248,
-        "answer_duration": 1.476
+        "question_image": "out/civic-test/images/39_q.png",
+        "answer_image": "out/civic-test/images/39_a.png",
+        "question_audio": "out/civic-test/audio/q39.wav",
+        "answer_audio": "out/civic-test/audio/a39.wav"
       },
       {
         "number": 40,
         "question": "Who is the Chief Justice of the United States now?",
+        "difficulty": "hard",
         "answer": [
-          "Answers will vary. The current Chief Justice's name can be found online or other reliable sources."
+          "John Roberts"
         ],
-        "duration": 4.464,
-        "answer_duration": 7.236
+        "question_image": "out/civic-test/images/40_q.png",
+        "answer_image": "out/civic-test/images/40_a.png",
+        "question_audio": "out/civic-test/audio/q40.wav",
+        "answer_audio": "out/civic-test/audio/a40.wav"
       },
       {
         "number": 41,
         "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+        "difficulty": "medium",
         "answer": [
           "To print money",
           "To declare war",
           "To create an army",
           "To make treaties"
         ],
-        "duration": 8.532,
-        "answer_duration": 7.38
+        "question_image": "out/civic-test/images/41_q.png",
+        "answer_image": "out/civic-test/images/41_a.png",
+        "question_audio": "out/civic-test/audio/q41.wav",
+        "answer_audio": "out/civic-test/audio/a41.wav"
       },
       {
         "number": 42,
         "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+        "difficulty": "medium",
         "answer": [
           "Provide schooling and education",
           "Provide protection (police)",
@@ -438,26 +565,38 @@
           "Give a driver's license",
           "Approve zoning and land use"
         ],
-        "duration": 7.992,
-        "answer_duration": 13.536
+        "question_image": "out/civic-test/images/42_q.png",
+        "answer_image": "out/civic-test/images/42_a.png",
+        "question_audio": "out/civic-test/audio/q42.wav",
+        "answer_audio": "out/civic-test/audio/a42.wav"
       },
       {
         "number": 43,
         "question": "Who is the Governor of your state now?",
+        "byState": {
+          "CA": "Gavin Newsom"
+        },
         "answer": [
           "Answers will vary. The current Governor's name can be found online or other reliable sources."
         ],
-        "duration": 3.672,
-        "answer_duration": 6.84
+        "question_image": "out/civic-test/images/43_q.png",
+        "answer_image": "out/civic-test/images/43_a.png",
+        "question_audio": "out/civic-test/audio/q43.wav",
+        "answer_audio": "out/civic-test/audio/a43.wav"
       },
       {
         "number": 44,
         "question": "What is the capital of your state?",
+        "byState": {
+          "CA": "Sacramento"
+        },
         "answer": [
           "Answers will vary. The current state capital's name can be found online or other reliable sources."
         ],
-        "duration": 3.528,
-        "answer_duration": 7.2
+        "question_image": "out/civic-test/images/44_q.png",
+        "answer_image": "out/civic-test/images/44_a.png",
+        "question_audio": "out/civic-test/audio/q44.wav",
+        "answer_audio": "out/civic-test/audio/a44.wav"
       },
       {
         "number": 45,
@@ -465,26 +604,32 @@
         "answer": [
           "Democratic and Republican"
         ],
-        "duration": 5.112,
-        "answer_duration": 2.448
+        "question_image": "out/civic-test/images/45_q.png",
+        "answer_image": "out/civic-test/images/45_a.png",
+        "question_audio": "out/civic-test/audio/q45.wav",
+        "answer_audio": "out/civic-test/audio/a45.wav"
       },
       {
         "number": 46,
         "question": "What is the political party of the President now?",
         "answer": [
-          "Answers will vary. The current President's political party can be found online or other reliable sources."
+          "Democratic Party"
         ],
-        "duration": 4.392,
-        "answer_duration": 7.452
+        "question_image": "out/civic-test/images/46_q.png",
+        "answer_image": "out/civic-test/images/46_a.png",
+        "question_audio": "out/civic-test/audio/q46.wav",
+        "answer_audio": "out/civic-test/audio/a46.wav"
       },
       {
         "number": 47,
         "question": "What is the name of the Speaker of the House of Representatives now?",
         "answer": [
-          "Answers will vary. The current Speaker of the House's name can be found online or other reliable sources."
+          "Kevin McCarthy"
         ],
-        "duration": 4.968,
-        "answer_duration": 7.38
+        "question_image": "out/civic-test/images/47_q.png",
+        "answer_image": "out/civic-test/images/47_a.png",
+        "question_audio": "out/civic-test/audio/q47.wav",
+        "answer_audio": "out/civic-test/audio/a47.wav"
       }
     ]
   },
@@ -494,38 +639,55 @@
       {
         "number": 48,
         "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+        "difficulty": "medium",
         "answer": [
           "Citizens eighteen (18) and older (can vote)",
           "You don\u2019t have to pay (a poll tax) to vote",
           "Any citizen can vote. (Women and men can vote)",
           "A male citizen of any race (can vote)"
         ],
-        "duration": 7.056,
-        "answer_duration": 15.732
+        "question_image": "out/civic-test/images/48_q.png",
+        "answer_image": "out/civic-test/images/48_a.png",
+        "question_audio": "out/civic-test/audio/q48.wav",
+        "answer_audio": "out/civic-test/audio/a48.wav"
       },
       {
         "number": 49,
         "question": "What is one responsibility that is only for United States citizens?",
+        "bestAnswer": [
+          1
+        ],
+        "difficulty": "medium",
         "answer": [
           "Serve on a jury",
           "Vote in a federal election"
         ],
-        "duration": 5.76,
-        "answer_duration": 4.392
+        "question_image": "out/civic-test/images/49_q.png",
+        "answer_image": "out/civic-test/images/49_a.png",
+        "question_audio": "out/civic-test/audio/q49.wav",
+        "answer_audio": "out/civic-test/audio/a49.wav"
       },
       {
         "number": 50,
         "question": "Name one right only for United States citizens.",
+        "difficulty": "medium",
         "answer": [
           "Vote in a federal election",
           "Run for federal office"
         ],
-        "duration": 4.536,
-        "answer_duration": 4.788
+        "question_image": "out/civic-test/images/50_q.png",
+        "answer_image": "out/civic-test/images/50_a.png",
+        "question_audio": "out/civic-test/audio/q50.wav",
+        "answer_audio": "out/civic-test/audio/a50.wav"
       },
       {
         "number": 51,
         "question": "What are two rights of everyone living in the United States?",
+        "bestAnswer": [
+          1,
+          3
+        ],
+        "difficulty": "medium",
         "answer": [
           "Freedom of expression",
           "Freedom of speech",
@@ -534,22 +696,31 @@
           "Freedom of worship",
           "The right to bear arms"
         ],
-        "duration": 4.86,
-        "answer_duration": 13.248
+        "question_image": "out/civic-test/images/51_q.png",
+        "answer_image": "out/civic-test/images/51_a.png",
+        "question_audio": "out/civic-test/audio/q51.wav",
+        "answer_audio": "out/civic-test/audio/a51.wav"
       },
       {
         "number": 52,
         "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+        "difficulty": "medium",
         "answer": [
           "The United States",
           "The flag"
         ],
-        "duration": 5.076,
-        "answer_duration": 3.636
+        "question_image": "out/civic-test/images/52_q.png",
+        "answer_image": "out/civic-test/images/52_a.png",
+        "question_audio": "out/civic-test/audio/q52.wav",
+        "answer_audio": "out/civic-test/audio/a52.wav"
       },
       {
         "number": 53,
         "question": "What is one promise you make when you become a United States citizen?",
+        "bestAnswer": [
+          5
+        ],
+        "difficulty": "hard",
         "answer": [
           "Give up loyalty to other countries",
           "Defend the Constitution and laws of the United States",
@@ -558,8 +729,10 @@
           "Serve (do important work for) the nation (if needed)",
           "Be loyal to the United States"
         ],
-        "duration": 5.364,
-        "answer_duration": 19.944
+        "question_image": "out/civic-test/images/53_q.png",
+        "answer_image": "out/civic-test/images/53_a.png",
+        "question_audio": "out/civic-test/audio/q53.wav",
+        "answer_audio": "out/civic-test/audio/a53.wav"
       },
       {
         "number": 54,
@@ -567,8 +740,10 @@
         "answer": [
           "18 and older"
         ],
-        "duration": 4.752,
-        "answer_duration": 2.052
+        "question_image": "out/civic-test/images/54_q.png",
+        "answer_image": "out/civic-test/images/54_a.png",
+        "question_audio": "out/civic-test/audio/q54.wav",
+        "answer_audio": "out/civic-test/audio/a54.wav"
       },
       {
         "number": 55,
@@ -585,8 +760,10 @@
           "Run for office",
           "Write to a newspaper"
         ],
-        "duration": 5.472,
-        "answer_duration": 23.58
+        "question_image": "out/civic-test/images/55_q.png",
+        "answer_image": "out/civic-test/images/55_a.png",
+        "question_audio": "out/civic-test/audio/q55.wav",
+        "answer_audio": "out/civic-test/audio/a55.wav"
       },
       {
         "number": 56,
@@ -594,18 +771,23 @@
         "answer": [
           "April 15"
         ],
-        "duration": 5.328,
-        "answer_duration": 2.016
+        "question_image": "out/civic-test/images/56_q.png",
+        "answer_image": "out/civic-test/images/56_a.png",
+        "question_audio": "out/civic-test/audio/q56.wav",
+        "answer_audio": "out/civic-test/audio/a56.wav"
       },
       {
         "number": 57,
+        "difficulty": "medium",
         "question": "When must all men register for the Selective Service?",
         "answer": [
           "At age 18",
           "Between 18 and 26"
         ],
-        "duration": 4.86,
-        "answer_duration": 4.788
+        "question_image": "out/civic-test/images/57_q.png",
+        "answer_image": "out/civic-test/images/57_a.png",
+        "question_audio": "out/civic-test/audio/q57.wav",
+        "answer_audio": "out/civic-test/audio/a57.wav"
       }
     ]
   },
@@ -614,6 +796,7 @@
     "questions": [
       {
         "number": 58,
+        "difficulty": "medium",
         "question": "What is one reason colonists came to America?",
         "answer": [
           "Freedom",
@@ -623,61 +806,83 @@
           "Practice their religion",
           "Escape persecution"
         ],
-        "duration": 4.5,
-        "answer_duration": 11.844
+        "question_image": "out/civic-test/images/58_q.png",
+        "answer_image": "out/civic-test/images/58_a.png",
+        "question_audio": "out/civic-test/audio/q58.wav",
+        "answer_audio": "out/civic-test/audio/a58.wav"
       },
       {
         "number": 59,
+        "difficulty": "medium",
         "question": "Who lived in America before the Europeans arrived?",
         "answer": [
           "American Indians",
           "Native Americans"
         ],
-        "duration": 4.536,
-        "answer_duration": 4.212
+        "question_image": "out/civic-test/images/59_q.png",
+        "answer_image": "out/civic-test/images/59_a.png",
+        "question_audio": "out/civic-test/audio/q59.wav",
+        "answer_audio": "out/civic-test/audio/a59.wav"
       },
       {
         "number": 60,
+        "difficulty": "medium",
         "question": "What group of people was taken to America and sold as slaves?",
         "answer": [
           "Africans",
           "People from Africa"
         ],
-        "duration": 5.328,
-        "answer_duration": 3.744
+        "question_image": "out/civic-test/images/60_q.png",
+        "answer_image": "out/civic-test/images/60_a.png",
+        "question_audio": "out/civic-test/audio/q60.wav",
+        "answer_audio": "out/civic-test/audio/a60.wav"
       },
       {
         "number": 61,
         "question": "Why did the colonists fight the British?",
+        "difficulty": "medium",
         "answer": [
           "Because of high taxes (taxation without representation)",
           "Because the British army stayed in their houses (boarding, quartering)",
           "Because they didn\u2019t have self-government"
         ],
-        "duration": 4.032,
-        "answer_duration": 11.556
+        "question_image": "out/civic-test/images/61_q.png",
+        "answer_image": "out/civic-test/images/61_a.png",
+        "question_audio": "out/civic-test/audio/q61.wav",
+        "answer_audio": "out/civic-test/audio/a61.wav"
       },
       {
         "number": 62,
+        "difficulty": "medium",
         "question": "Who wrote the Declaration of Independence?",
         "answer": [
           "(Thomas) Jefferson"
         ],
-        "duration": 4.104,
-        "answer_duration": 2.376
+        "question_image": "out/civic-test/images/62_q.png",
+        "answer_image": "out/civic-test/images/62_a.png",
+        "question_audio": "out/civic-test/audio/q62.wav",
+        "answer_audio": "out/civic-test/audio/a62.wav"
       },
       {
         "number": 63,
+        "difficulty": "hard",
         "question": "When was the Declaration of Independence adopted?",
         "answer": [
           "July 4, 1776"
         ],
-        "duration": 4.644,
-        "answer_duration": 3.24
+        "question_image": "out/civic-test/images/63_q.png",
+        "answer_image": "out/civic-test/images/63_a.png",
+        "question_audio": "out/civic-test/audio/q63.wav",
+        "answer_audio": "out/civic-test/audio/a63.wav"
       },
       {
         "number": 64,
         "question": "There were 13 original states. Name three.",
+        "bestAnswer": [
+          0,
+          4,
+          5
+        ],
         "answer": [
           "New Hampshire",
           "Massachusetts",
@@ -693,8 +898,10 @@
           "South Carolina",
           "Georgia"
         ],
-        "duration": 5.616,
-        "answer_duration": 21.924
+        "question_image": "out/civic-test/images/64_q.png",
+        "answer_image": "out/civic-test/images/64_a.png",
+        "question_audio": "out/civic-test/audio/q64.wav",
+        "answer_audio": "out/civic-test/audio/a64.wav"
       },
       {
         "number": 65,
@@ -703,33 +910,43 @@
           "The Constitution was written.",
           "The Founding Fathers wrote the Constitution."
         ],
-        "duration": 4.284,
-        "answer_duration": 5.616
+        "question_image": "out/civic-test/images/65_q.png",
+        "answer_image": "out/civic-test/images/65_a.png",
+        "question_audio": "out/civic-test/audio/q65.wav",
+        "answer_audio": "out/civic-test/audio/a65.wav"
       },
       {
         "number": 66,
         "question": "When was the Constitution written?",
+        "difficulty": "hard",
         "answer": [
           "1787"
         ],
-        "duration": 3.708,
-        "answer_duration": 3.132
+        "question_image": "out/civic-test/images/66_q.png",
+        "answer_image": "out/civic-test/images/66_a.png",
+        "question_audio": "out/civic-test/audio/q66.wav",
+        "answer_audio": "out/civic-test/audio/a66.wav"
       },
       {
         "number": 67,
         "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+        "bestAnswer": 1,
+        "difficulty": "hard",
         "answer": [
           "(James) Madison",
           "(Alexander) Hamilton",
           "(John) Jay",
           "Publius"
         ],
-        "duration": 7.776,
-        "answer_duration": 8.46
+        "question_image": "out/civic-test/images/67_q.png",
+        "answer_image": "out/civic-test/images/67_a.png",
+        "question_audio": "out/civic-test/audio/q67.wav",
+        "answer_audio": "out/civic-test/audio/a67.wav"
       },
       {
         "number": 68,
         "question": "What is one thing Benjamin Franklin is famous for?",
+        "difficulty": "medium",
         "answer": [
           "U.S. diplomat",
           "Oldest member of the Constitutional Convention",
@@ -737,8 +954,10 @@
           "Writer of 'Poor Richard\u2019s Almanac'",
           "Started the first free libraries"
         ],
-        "duration": 4.644,
-        "answer_duration": 14.292
+        "question_image": "out/civic-test/images/68_q.png",
+        "answer_image": "out/civic-test/images/68_a.png",
+        "question_audio": "out/civic-test/audio/q68.wav",
+        "answer_audio": "out/civic-test/audio/a68.wav"
       },
       {
         "number": 69,
@@ -746,8 +965,10 @@
         "answer": [
           "(George) Washington"
         ],
-        "duration": 3.708,
-        "answer_duration": 2.268
+        "question_image": "out/civic-test/images/69_q.png",
+        "answer_image": "out/civic-test/images/69_a.png",
+        "question_audio": "out/civic-test/audio/q69.wav",
+        "answer_audio": "out/civic-test/audio/a69.wav"
       },
       {
         "number": 70,
@@ -755,8 +976,10 @@
         "answer": [
           "(George) Washington"
         ],
-        "duration": 3.312,
-        "answer_duration": 2.268
+        "question_image": "out/civic-test/images/70_q.png",
+        "answer_image": "out/civic-test/images/70_a.png",
+        "question_audio": "out/civic-test/audio/q70.wav",
+        "answer_audio": "out/civic-test/audio/a70.wav"
       }
     ]
   },
@@ -766,24 +989,31 @@
       {
         "number": 71,
         "question": "What territory did the United States buy from France in 1803?",
+        "bestAnswer": 1,
+        "difficulty": "medium",
         "answer": [
           "The Louisiana Territory",
           "Louisiana"
         ],
-        "duration": 5.724,
-        "answer_duration": 4.104
+        "question_image": "out/civic-test/images/71_q.png",
+        "answer_image": "out/civic-test/images/71_a.png",
+        "question_audio": "out/civic-test/audio/q71.wav",
+        "answer_audio": "out/civic-test/audio/a71.wav"
       },
       {
         "number": 72,
         "question": "Name one war fought by the United States in the 1800s.",
+        "bestAnswer": 2,
         "answer": [
           "War of 1812",
           "Mexican-American War",
           "Civil War",
           "Spanish-American War"
         ],
-        "duration": 5.292,
-        "answer_duration": 8.676
+        "question_image": "out/civic-test/images/72_q.png",
+        "answer_image": "out/civic-test/images/72_a.png",
+        "question_audio": "out/civic-test/audio/q72.wav",
+        "answer_audio": "out/civic-test/audio/a72.wav"
       },
       {
         "number": 73,
@@ -792,8 +1022,10 @@
           "The Civil War",
           "The War between the States"
         ],
-        "duration": 4.572,
-        "answer_duration": 4.248
+        "question_image": "out/civic-test/images/73_q.png",
+        "answer_image": "out/civic-test/images/73_a.png",
+        "question_audio": "out/civic-test/audio/q73.wav",
+        "answer_audio": "out/civic-test/audio/a73.wav"
       },
       {
         "number": 74,
@@ -803,8 +1035,10 @@
           "Economic reasons",
           "States' rights"
         ],
-        "duration": 4.104,
-        "answer_duration": 5.652
+        "question_image": "out/civic-test/images/74_q.png",
+        "answer_image": "out/civic-test/images/74_a.png",
+        "question_audio": "out/civic-test/audio/q74.wav",
+        "answer_audio": "out/civic-test/audio/a74.wav"
       },
       {
         "number": 75,
@@ -814,30 +1048,385 @@
           "Saved (or preserved) the Union",
           "Led the United States during the Civil War"
         ],
-        "duration": 4.716,
-        "answer_duration": 10.116
+        "question_image": "out/civic-test/images/75_q.png",
+        "answer_image": "out/civic-test/images/75_a.png",
+        "question_audio": "out/civic-test/audio/q75.wav",
+        "answer_audio": "out/civic-test/audio/a75.wav"
       },
       {
         "number": 76,
         "question": "What did the Emancipation Proclamation do?",
+        "difficulty": "medium",
         "answer": [
           "Freed the slaves",
           "Freed slaves in the Confederacy",
           "Freed slaves in the Confederate states",
           "Freed slaves in most Southern states"
         ],
-        "duration": 4.248,
-        "answer_duration": 11.124
+        "question_image": "out/civic-test/images/76_q.png",
+        "answer_image": "out/civic-test/images/76_a.png",
+        "question_audio": "out/civic-test/audio/q76.wav",
+        "answer_audio": "out/civic-test/audio/a76.wav"
       },
       {
         "number": 77,
         "question": "What did Susan B. Anthony do?",
+        "difficulty": "hard",
         "answer": [
           "Fought for women's rights",
           "Fought for civil rights"
         ],
-        "duration": 4.032,
-        "answer_duration": 4.752
+        "question_image": "out/civic-test/images/77_q.png",
+        "answer_image": "out/civic-test/images/77_a.png",
+        "question_audio": "out/civic-test/audio/q77.wav",
+        "answer_audio": "out/civic-test/audio/a77.wav"
+      }
+    ]
+  },
+  {
+    "section": "Recent American History and Other Important Historical Information",
+    "questions": [
+      {
+        "number": 78,
+        "question": "Name one war fought by the United States in the 1900s.",
+        "bestAnswer": 1,
+        "answer": [
+          "World War I",
+          "World War II",
+          "Korean War",
+          "Vietnam War",
+          "(Persian) Gulf War"
+        ],
+        "question_image": "out/civic-test/images/78_q.png",
+        "answer_image": "out/civic-test/images/78_a.png",
+        "question_audio": "out/civic-test/audio/q78.wav",
+        "answer_audio": "out/civic-test/audio/a78.wav"
+      },
+      {
+        "number": 79,
+        "question": "Who was President during World War I?",
+        "difficulty": "hard",
+        "answer": [
+          "(Woodrow) Wilson"
+        ],
+        "question_image": "out/civic-test/images/79_q.png",
+        "answer_image": "out/civic-test/images/79_a.png",
+        "question_audio": "out/civic-test/audio/q79.wav",
+        "answer_audio": "out/civic-test/audio/a79.wav"
+      },
+      {
+        "number": 80,
+        "question": "Who was President during the Great Depression and World War II?",
+        "answer": [
+          "(Franklin) Roosevelt"
+        ],
+        "question_image": "out/civic-test/images/80_q.png",
+        "answer_image": "out/civic-test/images/80_a.png",
+        "question_audio": "out/civic-test/audio/q80.wav",
+        "answer_audio": "out/civic-test/audio/a80.wav"
+      },
+      {
+        "number": 81,
+        "question": "Who did the United States fight in World War II?",
+        "answer": [
+          "Japan, Germany, and Italy"
+        ],
+        "question_image": "out/civic-test/images/81_q.png",
+        "answer_image": "out/civic-test/images/81_a.png",
+        "question_audio": "out/civic-test/audio/q81.wav",
+        "answer_audio": "out/civic-test/audio/a81.wav"
+      },
+      {
+        "number": 82,
+        "question": "Before he was President, Eisenhower was a general. What war was he in?",
+        "answer": [
+          "World War II"
+        ],
+        "question_image": "out/civic-test/images/82_q.png",
+        "answer_image": "out/civic-test/images/82_a.png",
+        "question_audio": "out/civic-test/audio/q82.wav",
+        "answer_audio": "out/civic-test/audio/a82.wav"
+      },
+      {
+        "number": 83,
+        "question": "During the Cold War, what was the main concern of the United States?",
+        "difficulty": "medium",
+        "answer": [
+          "Communism"
+        ],
+        "question_image": "out/civic-test/images/83_q.png",
+        "answer_image": "out/civic-test/images/83_a.png",
+        "question_audio": "out/civic-test/audio/q83.wav",
+        "answer_audio": "out/civic-test/audio/a83.wav"
+      },
+      {
+        "number": 84,
+        "question": "What movement tried to end racial discrimination?",
+        "difficulty": "medium",
+        "answer": [
+          "Civil rights (movement)"
+        ],
+        "question_image": "out/civic-test/images/84_q.png",
+        "answer_image": "out/civic-test/images/84_a.png",
+        "question_audio": "out/civic-test/audio/q84.wav",
+        "answer_audio": "out/civic-test/audio/a84.wav"
+      },
+      {
+        "number": 85,
+        "question": "What did Martin Luther King, Jr. do?",
+        "difficulty": "medium",
+        "answer": [
+          "Fought for civil rights",
+          "Worked for equality for all Americans"
+        ],
+        "question_image": "out/civic-test/images/85_q.png",
+        "answer_image": "out/civic-test/images/85_a.png",
+        "question_audio": "out/civic-test/audio/q85.wav",
+        "answer_audio": "out/civic-test/audio/a85.wav"
+      },
+      {
+        "number": 86,
+        "question": "What major event happened on September 11, 2001, in the United States?",
+        "answer": [
+          "Terrorists attacked the United States"
+        ],
+        "question_image": "out/civic-test/images/86_q.png",
+        "answer_image": "out/civic-test/images/86_a.png",
+        "question_audio": "out/civic-test/audio/q86.wav",
+        "answer_audio": "out/civic-test/audio/a86.wav"
+      },
+      {
+        "number": 87,
+        "question": "Name one American Indian tribe in the United States.",
+        "difficulty": "hard",
+        "answer": [
+          "Cherokee",
+          "Navajo",
+          "Sioux",
+          "Chippewa",
+          "Choctaw",
+          "Pueblo",
+          "Apache",
+          "Iroquois",
+          "Creek",
+          "Blackfeet",
+          "Seminole",
+          "Cheyenne",
+          "Arawak",
+          "Shawnee",
+          "Mohegan",
+          "Huron",
+          "Oneida",
+          "Lakota",
+          "Crow",
+          "Teton",
+          "Hopi",
+          "Inuit"
+        ],
+        "question_image": "out/civic-test/images/87_q.png",
+        "answer_image": "out/civic-test/images/87_a.png",
+        "question_audio": "out/civic-test/audio/q87.wav",
+        "answer_audio": "out/civic-test/audio/a87.wav"
+      }
+    ]
+  },
+  {
+    "section": "Geography",
+    "questions": [
+      {
+        "number": 88,
+        "question": "Name one of the two longest rivers in the United States.",
+        "answer": [
+          "Missouri (River)",
+          "Mississippi (River)"
+        ],
+        "bestAnswer": 1,
+        "question_image": "out/civic-test/images/88_q.png",
+        "answer_image": "out/civic-test/images/88_a.png",
+        "question_audio": "out/civic-test/audio/q88.wav",
+        "answer_audio": "out/civic-test/audio/a88.wav"
+      },
+      {
+        "number": 89,
+        "question": "What ocean is on the West Coast of the United States?",
+        "answer": [
+          "Pacific (Ocean)"
+        ],
+        "question_image": "out/civic-test/images/89_q.png",
+        "answer_image": "out/civic-test/images/89_a.png",
+        "question_audio": "out/civic-test/audio/q89.wav",
+        "answer_audio": "out/civic-test/audio/a89.wav"
+      },
+      {
+        "number": 90,
+        "question": "What ocean is on the East Coast of the United States?",
+        "answer": [
+          "Atlantic (Ocean)"
+        ],
+        "question_image": "out/civic-test/images/90_q.png",
+        "answer_image": "out/civic-test/images/90_a.png",
+        "question_audio": "out/civic-test/audio/q90.wav",
+        "answer_audio": "out/civic-test/audio/a90.wav"
+      },
+      {
+        "number": 91,
+        "question": "Name one U.S. territory.",
+        "answer": [
+          "Puerto Rico",
+          "U.S. Virgin Islands",
+          "American Samoa",
+          "Northern Mariana Islands",
+          "Guam"
+        ],
+        "question_image": "out/civic-test/images/91_q.png",
+        "answer_image": "out/civic-test/images/91_a.png",
+        "question_audio": "out/civic-test/audio/q91.wav",
+        "answer_audio": "out/civic-test/audio/a91.wav"
+      },
+      {
+        "number": 92,
+        "question": "Name one state that borders Canada.",
+        "bestAnswer": [
+          12
+        ],
+        "answer": [
+          "Maine",
+          "New Hampshire",
+          "Vermont",
+          "New York",
+          "Pennsylvania",
+          "Ohio",
+          "Michigan",
+          "Minnesota",
+          "North Dakota",
+          "Montana",
+          "Idaho",
+          "Washington",
+          "Alaska"
+        ],
+        "question_image": "out/civic-test/images/92_q.png",
+        "answer_image": "out/civic-test/images/92_a.png",
+        "question_audio": "out/civic-test/audio/q92.wav",
+        "answer_audio": "out/civic-test/audio/a92.wav"
+      },
+      {
+        "number": 93,
+        "question": "Name one state that borders Mexico.",
+        "answer": [
+          "California",
+          "Arizona",
+          "New Mexico",
+          "Texas"
+        ],
+        "question_image": "out/civic-test/images/93_q.png",
+        "answer_image": "out/civic-test/images/93_a.png",
+        "question_audio": "out/civic-test/audio/q93.wav",
+        "answer_audio": "out/civic-test/audio/a93.wav"
+      },
+      {
+        "number": 94,
+        "question": "What is the capital of the United States?",
+        "answer": [
+          "Washington, D.C."
+        ],
+        "question_image": "out/civic-test/images/94_q.png",
+        "answer_image": "out/civic-test/images/94_a.png",
+        "question_audio": "out/civic-test/audio/q94.wav",
+        "answer_audio": "out/civic-test/audio/a94.wav"
+      },
+      {
+        "number": 95,
+        "question": "Where is the Statue of Liberty?",
+        "answer": [
+          "New York (Harbor)",
+          "Liberty Island"
+        ],
+        "question_image": "out/civic-test/images/95_q.png",
+        "answer_image": "out/civic-test/images/95_a.png",
+        "question_audio": "out/civic-test/audio/q95.wav",
+        "answer_audio": "out/civic-test/audio/a95.wav"
+      }
+    ]
+  },
+  {
+    "section": "Symbols",
+    "questions": [
+      {
+        "number": 96,
+        "question": "Why does the flag have 13 stripes?",
+        "answer": [
+          "Because there were 13 original colonies",
+          "Because the stripes represent the original colonies"
+        ],
+        "question_image": "out/civic-test/images/96_q.png",
+        "answer_image": "out/civic-test/images/96_a.png",
+        "question_audio": "out/civic-test/audio/q96.wav",
+        "answer_audio": "out/civic-test/audio/a96.wav"
+      },
+      {
+        "number": 97,
+        "question": "Why does the flag have 50 stars?",
+        "answer": [
+          "Because there is one star for each state",
+          "Because each star represents a state",
+          "Because there are 50 states"
+        ],
+        "question_image": "out/civic-test/images/97_q.png",
+        "answer_image": "out/civic-test/images/97_a.png",
+        "question_audio": "out/civic-test/audio/q97.wav",
+        "answer_audio": "out/civic-test/audio/a97.wav"
+      },
+      {
+        "number": 98,
+        "question": "What is the name of the national anthem?",
+        "answer": [
+          "The Star-Spangled Banner"
+        ],
+        "difficulty": "hard",
+        "question_image": "out/civic-test/images/98_q.png",
+        "answer_image": "out/civic-test/images/98_a.png",
+        "question_audio": "out/civic-test/audio/q98.wav",
+        "answer_audio": "out/civic-test/audio/a98.wav"
+      }
+    ]
+  },
+  {
+    "section": "Holidays",
+    "questions": [
+      {
+        "number": 99,
+        "question": "When do we celebrate Independence Day?",
+        "answer": [
+          "July 4"
+        ],
+        "question_image": "out/civic-test/images/99_q.png",
+        "answer_image": "out/civic-test/images/99_a.png",
+        "question_audio": "out/civic-test/audio/q99.wav",
+        "answer_audio": "out/civic-test/audio/a99.wav"
+      },
+      {
+        "number": 100,
+        "bestAnswer": [
+          4,
+          8
+        ],
+        "question": "Name two national U.S. holidays.",
+        "answer": [
+          "New Year\u2019s Day",
+          "Martin Luther King, Jr. Day",
+          "Presidents' Day (Washington\u2019s Birthday)",
+          "Memorial Day",
+          "Independence Day",
+          "Labor Day",
+          "Columbus Day",
+          "Veterans Day",
+          "Thanksgiving",
+          "Christmas"
+        ],
+        "question_image": "out/civic-test/images/100_q.png",
+        "answer_image": "out/civic-test/images/100_a.png",
+        "question_audio": "out/civic-test/audio/q100.wav",
+        "answer_audio": "out/civic-test/audio/a100.wav"
       }
     ]
   }
