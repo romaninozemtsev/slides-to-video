@@ -32,13 +32,19 @@ def concat_videos(video_paths, out_video):
     os.system(f'ffmpeg -y -f concat -safe 0 -i videos.txt -c copy "{out_video}"')
     return out_video
 
+
 def image_to_mp4(img_path, duration, size=None):
     name = "".join(img_path.split('/')[-1].split('.')[:-1]).replace(" ", "_")
     out_video_path = f'out/{name}.mp4'
+    return image_to_mp4_with_location(img_path, duration, out_video_path)
+
+
+def image_to_mp4_with_location(img_path, duration, out_video_path):
     string_command = f'ffmpeg -y -framerate 60 -loop 1 -i "{img_path}" -c:v libx264 -t "{duration}" -pix_fmt yuv420p -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" "{out_video_path}"'
     os.system(string_command)
     time.sleep(2)
     return out_video_path
+
 
 def combine_with_mp3(input_video, audio_file, final_file):
     subprocess.run([
